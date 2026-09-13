@@ -275,64 +275,184 @@ export const lesson = {
         ],
     },
 
-    dialogue: {
-        title: "Real Situation - New Students Meet Before Class",
-        setting: "A new student meets a classmate before the first Arabic lesson. The teacher joins briefly.",
+     dialogue: {
         lines: [
-            { speaker: "Samer", ar: "مَرْحَبَا، إِنْتِ جَدِيدَة فِي الصَّف؟", arArabeezy: "marhaba, inti jdeedeh fi el-Saff?", en: "Hi, are you new in the class?" },
-            { speaker: "Lina", ar: "آه، مَرْحَبَا. أَنَا جَدِيدَة هِنَا.", arArabeezy: "ah, marhaba. ana jdeedeh hena.", en: "Yes, hi. I'm new here." },
-            { speaker: "Samer", ar: "أَهْلِين. شُو اِسْمِك؟", arArabeezy: "ahleen. sho ismik?", en: "Hi. What's your name?" },
-            { speaker: "Lina", ar: "اِسْمِي لِين. وَإِنْتَ شُو اِسْمَك؟", arArabeezy: "ismi leen. w inta sho ismak?", en: "My name is Lynn. And what's your name?" },
-            { speaker: "Samer", ar: "اِسْمِي سَامِر. تْشَرَّفْنَا يَا لِين.", arArabeezy: "ismi samer. tsharrafna ya leen.", en: "My name is Samer. Nice to meet you, Lynn." },
-            { speaker: "Lina", ar: "تْشَرَّفْنَا يَا سَامِر.", arArabeezy: "tsharrafna ya samer.", en: "Nice to meet you, Samer." },
-            { speaker: "Samer", ar: "أَهْلًا وَسَهْلًا فِيكِي فِي الصَّف.", arArabeezy: "ahlan wa sahlan feeki fi el-Saff.", en: "Welcome to the class." },
-            { speaker: "Samer", ar: "إِنْتِ مِن وِين؟", arArabeezy: "inti min wen?", en: "Where are you from?" },
-            { speaker: "Lina", ar: "أَنَا مِن كَنَدَا.", arArabeezy: "ana min canada.", en: "I'm from Canada." },
-            { speaker: "Lina", ar: "وَإِنْتَ مِن وِين؟", arArabeezy: "w inta min wen?", en: "And where are you from?" },
-            { speaker: "Samer", ar: "أَنَا مِن غَزَّة.", arArabeezy: "ana min ghazza.", en: "I'm from Gaza." },
-            { speaker: "Samer", ar: "هَلْقِيت إِنْتِ وِين سَاكْنَة؟", arArabeezy: "halla2et inti wen sakneh?", en: "Where do you live now?" },
-            { speaker: "Lina", ar: "أَنَا سَاكْنَة فِي غَزَّة، قَرِيب مِن المَدْرَسَة.", arArabeezy: "ana sakneh fi ghazza, qareeb min el-madraseh.", en: "I live in Gaza, near the school." },
-            { speaker: "Samer", ar: "قَدِّيش عُمُرِك، إِذَا عَادِي؟", arArabeezy: "addeesh omrik, iza 3adi?", en: "How old are you, if that's okay?" },
-            { speaker: "Lina", ar: "عُمْرِي عِشْرِين سَنَة.", arArabeezy: "omri 3ishreen saneh.", en: "I'm twenty years old." },
-            { speaker: "Lina", ar: "حِلْو. الصَّف وِين؟", arArabeezy: "7ilu. el-Saff wen?", en: "Nice. Where is the class?" },
-            { speaker: "Samer", ar: "الصَّف هِنَا، جَنْب البَاب.", arArabeezy: "el-Saff hena, jamb el-bab.", en: "The class is here, next to the door." },
-            { speaker: "Lina", ar: "يِسْلَمُوا، شُكْرًا.", arArabeezy: "yislamu, shukran.", en: "Thanks, thank you." },
-            { speaker: "Samer", ar: "عَفْوًا، وَلَا يِهِمَّك.", arArabeezy: "3afwan, wala yhemmak.", en: "You're welcome, no problem." },
-            { speaker: "Lina", ar: "شُو أَخْبَارَك مَع أَوَّل يَوم؟", arArabeezy: "sho akhbarak ma3 awwal yom?", en: "How are things on your first day?" },
-            { speaker: "Samer", ar: "تَمَام، الحَمْدُ لله. وَإِنْتِ كِيفِك؟", arArabeezy: "tamam, el-hamdullah. w inti keefik?", en: "Good, thank God. And how are you?" },
-            { speaker: "Lina", ar: "مْنِيحَة، بَس شُوَيّ تَعْبَانَة.", arArabeezy: "mneeha, bas shway ta3baneh.", en: "Good, but a little tired." },
-            { speaker: "Samer", ar: "عَادِي، أَوَّل يَوم صَعْب شُوَيّ.", arArabeezy: "3adi, awwal yom sa3b shway.", en: "That's normal, the first day is a little hard." },
-            { speaker: "Teacher", ar: "صَبَاح الخِير يَا طلاب.", arArabeezy: "sabah el-kheir ya talab.", en: "Good morning, students." },
-            { speaker: "Samer", ar: "صَبَاح النُّور أُسْتَاذ.", arArabeezy: "sabah el-noor ustaz.", en: "Good morning, teacher." },
-            { speaker: "Lina", ar: "صَبَاح النُّور.", arArabeezy: "sabah el-noor.", en: "Good morning." },
-            { speaker: "Lina", ar: "يِعْطِيك العَافْيَة أُسْتَاذ.", arArabeezy: "ya3teek el-3afyeh ustaz.", en: "Thanks, teacher." },
-            { speaker: "Teacher", ar: "كِيفْكُم اليَوم؟", arArabeezy: "keefkum el-yom?", en: "How are you all today?" },
-            { speaker: "Lina", ar: "أُسْتَاذ، لَوْ سَمَحْت، عِيد السُّؤَال.", arArabeezy: "ustaz, law samaht, 3eed el-su2al.", en: "Teacher, please repeat the question." },
-            { speaker: "Teacher", ar: "أَكِيد. كِيفْكُم اليَوم؟", arArabeezy: "akeed. keefkum el-yom?", en: "Of course. How are you all today?" },
-            { speaker: "Lina", ar: "آه، فَهِمْت. شُكْرًا.", arArabeezy: "ah, fhimt. shukran.", en: "Ah, I understood. Thank you." },
-            { speaker: "Teacher", ar: "عَفْوًا. يَلَّا نِبْدَا الدَّرْس.", arArabeezy: "3afwan. yalla nebda el-dars.", en: "You're welcome. Let's start the lesson." },
-            { speaker: "Samer", ar: "بَعْد الدَّرْس بِنْشُوفَك، طَمِّنِينِي عَلَيْك.", arArabeezy: "ba3d el-dars binshoofak, Tamnineeni 3aleek.", en: "I'll see you after class, tell me how you're doing." },
-            { speaker: "Lina", ar: "تَمَام، مَع السَّلَامَة.", arArabeezy: "tamam, ma3 salameh.", en: "Okay, goodbye." },
-            { speaker: "Samer", ar: "الله مَعِك.", arArabeezy: "allah ma3ik.", en: "God be with you." },
-        ],
-        questions: [
-            { ar: "مِين جَدِيد فِي الصَّف؟", en: "Who is new in the class?" },
-            { ar: "شُو اِسْم البِنْت؟", en: "What is the girl's name?" },
-            { ar: "شُو اِسْم الشَّب؟", en: "What is the young man's name?" },
-            { ar: "سَامِر قَال لِلِين شُو بَعْد تْشَرَّفْنَا؟", en: "What did Samer say to Lynn after nice to meet you?" },
-            { ar: "لِين مِن وِين؟", en: "Where is Lynn from?" },
-            { ar: "سَامِر مِن وِين؟", en: "Where is Samer from?" },
-            { ar: "لِين سَاكْنَة وِين هَلْقِيت؟", en: "Where does Lynn live now?" },
-            { ar: "قَدِّيش عُمُر لِين؟", en: "How old is Lynn?" },
-            { ar: "الصَّف وِين؟", en: "Where is the class?" },
-            { ar: "لِين قَالَت شُو لَمَّا سَامِر سَاعَدْهَا؟", en: "What did Lynn say when Samer helped her?" },
-            { ar: "سَامِر رَدّ عَلَيْهَا شُو؟", en: "What did Samer reply?" },
-            { ar: "سَامِر كِيفُه اليَوم؟", en: "How is Samer today?" },
-            { ar: "لِين كِيفَهَا اليَوم؟", en: "How is Lynn today?" },
-            { ar: "لِين قَالَت لِلأُسْتَاذ شُو؟", en: "What did Lynn say to the teacher?" },
-            { ar: "لِين طَلَبَت مِن الأُسْتَاذ شُو؟", en: "What did Lynn ask the teacher to do?" },
-            { ar: "اِحْكِي عَن نَفْسَك بِخَمْس جُمَل.", en: "Talk about yourself in five sentences." },
-        ],
+            {
+                "speaker": "Teacher",
+                "ar": "مَرْحَبَا، أَهْلًا وَسَهْلًا فِي الدَّرْس!",
+                "arArabeezy": "mr7ba, ahla wshla fy eldrs!",
+                "en": "Hi, welcome to the lesson!"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "مَرْحَبَا أُسْتَاذ.",
+                "arArabeezy": "mr7ba astadh.",
+                "en": "Hi, teacher."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "صَبَاح الْخِير، كِيفَك الْيَوْم؟",
+                "arArabeezy": "sba7 elkhyr, kyfk elywm?",
+                "en": "Good morning, how are you today?"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "أَنَا مْنِيحَة، شُكْرًا. وَإِنْتَ؟",
+                "arArabeezy": "ana mny7a, shkra. wint?",
+                "en": "I’m good, thanks. And you?"
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "أَنَا مْنِيح، الْحَمْدِلِلَّه.",
+                "arArabeezy": "ana mny7, el7mdllh.",
+                "en": "I’m good, praise be to God."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "شُو اِسْمِك؟",
+                "arArabeezy": "shw asmk?",
+                "en": "What’s your name?"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "أَنَا اِسْمِي لِينْ.",
+                "arArabeezy": "ana asmy lyn.",
+                "en": "My name is Lynn."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "فُرْصَة سَعِيدَة يَا لِينْ.",
+                "arArabeezy": "frsa s3yda ya lyn.",
+                "en": "Nice to meet you, Lynn."
+            },
+            {
+                "speaker": "Lina",
+                "ar": "تْشَرَّفْت فِيك أُسْتَاذ.",
+                "arArabeezy": "tshrft fyk astadh.",
+                "en": "Pleased to meet you, teacher."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "مِنْ وِين إِنْتِي ",
+                "arArabeezy": "mn wyn inty ?",
+                "en": "Where are you from?"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "أَنَا مِنْ كَنَدَا.",
+                "arArabeezy": "ana mn knda.",
+                "en": "I’m from Canada."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "حِلُو! وَهَلَّقيت وِين سَاكْنَة؟",
+                "arArabeezy": "7lw! whlqyt wyn sakna?",
+                "en": "Nice! And where do you live now?"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "هَلَّقيت أَنَا سَاكْنَة فِي رَام اللّٰه.",
+                "arArabeezy": "hlqyt ana sakna fy ram ellh.",
+                "en": "Now I live in Ramallah."
+            },
+            {
+                "speaker": "Lina",
+                "ar": "وَإِنْتَ مِنْ وِين؟",
+                "arArabeezy": "wint mn wyn?",
+                "en": "And where are you from?"
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "أَنَا مِنْ غَزَّة، بَسّ هَلَّقيت بَشْتِغِل فِي الْقُدْس.",
+                "arArabeezy": "ana mn ghza, bs hlqyt bshtghl fy elqds.",
+                "en": "I’m from Gaza, but now I work in Jerusalem."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "إِنْتِي طَالْبَة وَلَّا بِتْشْتِغْلِي؟",
+                "arArabeezy": "inty talba wla btshtghly?",
+                "en": "Are you a student or do you work?"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "أَنَا طَالْبَة، بَدْرُس عَرَبِي وَإِنْجِلِيزِي.",
+                "arArabeezy": "ana talba, bdrs 3rby winjlyzy.",
+                "en": "I’m a student, I study Arabic and English."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "حِلُو، أَنَا كَمَان أُسْتَاذ عَرَبِي.",
+                "arArabeezy": "7lw, ana kman astadh 3rby.",
+                "en": "Nice, I’m also an Arabic teacher."
+            },
+            {
+                "speaker": "Lina",
+                "ar": "مَبْسُوطَة إِنِّي مَعَك فِي الدَّرْس.",
+                "arArabeezy": "mbswta iny m3k fy eldrs.",
+                "en": "I’m happy to be in your class."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "وَإِحْنَا مَبْسُوطِين فِيك كَمَان.",
+                "arArabeezy": "wi7na mbswtyn fyk kman.",
+                "en": "And we’re happy to have you too."
+            },
+            {
+                "speaker": "Adam",
+                "ar": "السَّلَامُ عَلَيْكُمْ يَا شَبَاب!",
+                "arArabeezy": "elslam 3lykm ya shbab!",
+                "en": "Peace be upon you, everyone!"
+            },
+            {
+                "speaker": "Lina",
+                "ar": "وَعَلَيْكُم السَّلَام، مَرْحَبَا!",
+                "arArabeezy": "w3lykm elslam, mr7ba!",
+                "en": "And peace be upon you, hi!"
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "كِيفْكُم الْيَوْم؟",
+                "arArabeezy": "kyfkm elywm?",
+                "en": "How are you all today?"
+            },
+            {
+                "speaker": "Adam",
+                "ar": "إِحْنَا مْنَاح، بَسّ شَوَيّ تَعْبَانِين.",
+                "arArabeezy": "i7na mna7, bs shwy t3banyn.",
+                "en": "We’re fine, just a bit tired."
+            },
+            {
+                "speaker": "Sara",
+                "ar": "أَنَا مَبْسُوط إِنِّي بَدْرُس عَرَبِي مَعْكُم.",
+                "arArabeezy": "ana mbswt iny bdrs 3rby m3km.",
+                "en": "I’m happy that I study Arabic with you all."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "طَيِّب يَلَّا، هَادَا كَانَ التَّعَارُف الْأَوَّل.",
+                "arArabeezy": "tyb yla, hada kan elt3arf elawl.",
+                "en": "Alright, this was our first introduction."
+            },
+            {
+                "speaker": "Teacher",
+                "ar": "مَع السَّلَامَة، مَا تِنْسُوا الْوَاجِب.",
+                "arArabeezy": "m3 elslama, ma tnswa elwajb.",
+                "en": "Goodbye, don’t forget the homework."
+            },
+            {
+                "speaker": "Lina",
+                "ar": "مَع السَّلَامَة أُسْتَاذ، بِالتَّوْفِيق.",
+                "arArabeezy": "m3 elslama astadh, beltwfyq.",
+                "en": "Goodbye, teacher, good luck."
+            },
+            {
+                "speaker": "Adam",
+                "ar": "شُكْرًا، اِنْبِسِطُوا بِوَقْتْكُم الْيَوْم.",
+                "arArabeezy": "shkra, anbstwa bwqtkm elywm.",
+                "en": "Thank you, enjoy your time today."
+            },
+
+        ]
     },
 
     culture: [
