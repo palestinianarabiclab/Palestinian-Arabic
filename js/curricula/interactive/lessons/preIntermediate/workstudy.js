@@ -36,9 +36,9 @@ export const lesson = {
                 en: "work / job",
                 enArabeezy: "shoghol",
                 hint: "Very common. I have work = عِنْدِي شُغُل. My work = شُغْلِي.",
-                exampleAr: "عِنْدِي شُغُل بَعْد الغَدَا.",
-                exampleArabeezy: "3indi shoghol ba3d el-ghada.",
-                exampleEn: "I have work after lunch.",
+               exampleAr: "اليَوم عِنْدِي شُغُل بَعْد الظُّهْر.",
+    exampleArabeezy: "el-yom 3indi shoghol ba3d el-dohr.",
+    exampleEn: "Today I have work in the afternoon."
             },
             {
                 id: "dawam",
@@ -46,9 +46,9 @@ export const lesson = {
                 en: "shift / working hours / class schedule",
                 enArabeezy: "dawam",
                 hint: "Used for work and study schedules: عِنْدِي دَوَام، دَوَامِي مِن 8 لَـ 4.",
-                exampleAr: "دَوَامِي مِن السَّاعَة تَمَانْيَة لَلسَّاعَة أَرْبَعَة.",
-                exampleArabeezy: "dawami min el-sa3a tamanye lal-sa3a arba3a.",
-                exampleEn: "My shift is from eight to four.",
+                  exampleAr: "دَوَامِي مِن تَمَانْيَة لِأَرْبَعَة، وَبَعْدَهَا بَرُوح عَالبَيْت.",
+    exampleArabeezy: "dawami min tamanye la-arba3a, w ba3daha baroo7 3al-bet.",
+    exampleEn: "My work hours are from eight to four, and after that I go home."
             },
             {
                 id: "dawam_kamel",
@@ -56,9 +56,9 @@ export const lesson = {
                 en: "full-time",
                 enArabeezy: "dawam kamel",
                 hint: "Full-time work or study schedule.",
-                exampleAr: "أَبُوي بِشْتِغِل دَوَام كَامِل.",
-                exampleArabeezy: "abuy bishtaghel dawam kamel.",
-                exampleEn: "My father works full-time.",
+               exampleAr: "أَخُوي بَشْتِغِل دَوَام كَامِل فِي شَرِكَة.",
+    exampleArabeezy: "akhuy bashteghil dawam kamel fi sharikeh.",
+    exampleEn: "My brother works full-time at a company."
             },
             {
                 id: "dawam_joz2i",
@@ -66,29 +66,9 @@ export const lesson = {
                 en: "part-time",
                 enArabeezy: "dawam joz2i",
                 hint: "Part-time work. Useful for students who work and study.",
-                exampleAr: "بَشْتِغِل دَوَام جُزْئِي.",
-                exampleArabeezy: "bashteghil dawam joz2i.",
-                exampleEn: "I work part-time.",
-            },
-            {
-                id: "Taleb",
-                ar: "طَالِب / طَالْبِة",
-                en: "student",
-                enArabeezy: "Taleb / Talbeh",
-                hint: "Male: طَالِب. Female: طَالْبِة. Plural: طُلَّاب.",
-                exampleAr: "أَنَا طَالْبِة مِن غَزَّة.",
-                exampleArabeezy: "ana Talbeh min Ghazza.",
-                exampleEn: "I am a student from Gaza.",
-            },
-            {
-                id: "jame3a",
-                ar: "جَامْعَة",
-                en: "university",
-                enArabeezy: "jame3a",
-                hint: "Plural: جَامْعَات. My university = جَامْعْتِي.",
-                exampleAr: "بَدْرُس فِي جَامْعَة غَزَّة.",
-                exampleArabeezy: "badros fi jam3et ghazza.",
-                exampleEn: "I study at Gaza University.",
+                exampleAr: "أَنَا بَشْتِغِل دَوَام جُزْئِي لِأَنِّي بَدْرُس كَمَان.",
+    exampleArabeezy: "ana bashteghil dawam joz2i la2anni badros kaman.",
+    exampleEn: "I work part-time because I study too."
             },
             {
                 id: "madraseh",
@@ -96,10 +76,53 @@ export const lesson = {
                 en: "school",
                 enArabeezy: "madraseh",
                 hint: "Plural: مَدَارِس. My school = مَدْرَسْتِي.",
-                exampleAr: "أَخُوي فِي المَدْرَسَة.",
-                exampleArabeezy: "akhuy fi el-madraseh.",
-                exampleEn: "My brother is at school.",
+               exampleAr: "أَخُوي الصَّغِير بَرُوح عَالمَدْرَسَة كُل يَوم.",
+    exampleArabeezy: "akhuy el-sgheer baroo7 3al-madraseh kol yom.",
+    exampleEn: "My younger brother goes to school every day."
             },
+             {
+                id: "jame3a",
+                ar: "جَامْعَة",
+                en: "university",
+                enArabeezy: "jame3a",
+                hint: "Plural: جَامْعَات. My university = جَامْعْتِي.",
+                   exampleAr: "جَامْعْتِي بَعِيدَة شَوَيّ عَن البَيْت.",
+    exampleArabeezy: "jam3ti ba3ideh shwayy 3an el-bet.",
+    exampleEn: "My university is a little far from home."
+            },
+            
+            {
+                id: "Taleb",
+                ar: "طَالِب / طَالْبِة",
+                en: "student",
+                enArabeezy: "Taleb / Talbeh",
+                hint: "Male: طَالِب. Female: طَالْبِة. Plural: طُلَّاب.",
+                exampleAr: "أَنَا طَالِب وَبَدْرُس فِي الجَامْعَة.",
+    exampleArabeezy: "ana Taleb w badros fi el-jam3a.",
+    exampleEn: "I am a student and I study at university."
+            },
+           {
+    id: "kolliyyeh",
+    ar: "كُلِّيَّة",
+    en: "faculty / college",
+    enArabeezy: "kolleyyeh",
+    hint: "مثال: كُلِّيَّة الطِّب، كُلِّيَّة التِّجَارَة.",
+    exampleAr: "أُخْتِي بَتْدْرُس فِي كُلِّيَّة الطِّب.",
+    exampleArabeezy: "okhti batdros fi kolleyyet el-tebb.",
+    exampleEn: "My sister studies in the Faculty of Medicine."
+},
+{
+    id: "takhassos",
+    ar: "تَخَصُّص",
+    en: "major / field of study",
+    enArabeezy: "takhaSSoS",
+    hint: "مِن أهم كلمات الدراسة: إِيش تَخَصُّصَك؟",
+    exampleAr: "إِيش تَخَصُّصَك؟ أَنَا تَحَالِيل طِبِّيَّة.",
+    exampleArabeezy: "eesh takhaSSoSk? ana ta7aleel Tebbiyyeh.",
+    exampleEn: "What's your major? Medical Laboratory Science."
+},
+            
+            
             {
                 id: "qism",
                 ar: "قِسْم",
@@ -117,9 +140,9 @@ export const lesson = {
                 en: "company",
                 enArabeezy: "sharikeh",
                 hint: "Plural: شَرِكَات. Work in a company = بَشْتِغِل فِي شَرِكَة.",
-                exampleAr: "أَبُوي بِشْتِغِل فِي شَرِكَة.",
-                exampleArabeezy: "abuy bishtaghel fi sharikeh.",
-                exampleEn: "My father works in a company.",
+                exampleAr: "أُخْتِي بَتْشْتِغِل فِي شَرِكَة قَرِيبَة مِن البَيْت.",
+    exampleArabeezy: "okhti batshteghil fi sharekeh qareebeh min el-bet.",
+    exampleEn: "My sister works at a company near home."
             },
             {
                 id: "maktab",
@@ -131,17 +154,7 @@ export const lesson = {
                 exampleArabeezy: "bashtaghel fi maktab qareeb min el-jam3a.",
                 exampleEn: "I work in an office near the university.",
             },
-            {
-                id: "mu3allem",
-                ar: "مُعَلِّم / مُعَلِّمَة",
-                en: "teacher (m/f)",
-                enArabeezy: "mu3allem / mu3allmeh",
-                hint:
-                    "Spoken synonym of أُسْتَاذ. Used for school / institute teachers.",
-                exampleAr: "مُعَلِّمَة الرِّيَاضِيَّات كْتِير شَاطْرَة.",
-                exampleArabeezy: "m3lma elryadyat ktyr shatra.",
-                exampleEn: "The math teacher is very good.",
-            },
+            
             {
                 id: "zamil",
                 ar: "زْمِيل / زْمِيلَة",
@@ -152,27 +165,7 @@ export const lesson = {
                 exampleArabeezy: "zmyly fy elshghl bysa3dny kthyr.",
                 exampleEn: "My colleague at work helps me a lot.",
             },
-            {
-                id: "mudir",
-                ar: "مُدِير / مُدِيرَة",
-                en: "manager / director",
-                enArabeezy: "mudeer / mudeereh",
-                hint: "Used in work or school context. Plural: مُدَرَا.",
-                exampleAr: "المُدِير فِي المَكْتَب اليَوم.",
-                exampleArabeezy: "el-mudeer fi el-maktab el-yom.",
-                exampleEn: "The manager is in the office today.",
-            },
-            {
-                id: "muwazzaf",
-                ar: "مُوَظَّف / مُوَظَّفَة",
-                en: "employee",
-                enArabeezy: "muwazzaf / muwazzafeh",
-                hint: "Person who works in an office, bank, company, etc.",
-                exampleAr: "أَخُوي مُوَظَّف فِي شَرِكَة.",
-                exampleArabeezy: "akhuy muwazzaf fi sharikeh.",
-                exampleEn: "My brother is an employee at a company.",
-            },
-            {
+             {
                 id: "ijtima3",
                 ar: "اِجْتِمَاع",
                 en: "meeting",
@@ -183,24 +176,35 @@ export const lesson = {
                 exampleEn: "I have a meeting at ten.",
             },
             {
-                id: "maw3ed",
-                ar: "مَوْعِد",
-                en: "appointment / deadline",
-                enArabeezy: "maw3ed",
-                hint: "Use for appointments and project deadlines.",
-                exampleAr: "عِنْدِي مَوْعِد السَّاعَة عَشَرَة.",
-                exampleArabeezy: "3indi maw3ed el-sa3a 3ashara.",
-                exampleEn: "I have an appointment at ten.",
+                id: "mudir",
+                ar: "مُدِير / مُدِيرَة",
+                en: "manager / director",
+                enArabeezy: "mudeer / mudeereh",
+                hint: "Used in work or school context. Plural: مُدَرَا.",
+                exampleAr: "المُدِير اليَوم مَشْغُول، عِنْدُه اِجْتِمَاع.",
+    exampleArabeezy: "el-mudeer el-yom mashghool, 3endo ijtima3.",
+    exampleEn: "The manager is busy today; he has a meeting."
             },
+            {
+                id: "muwazzaf",
+                ar: "مُوَظَّف / مُوَظَّفَة",
+                en: "employee",
+                enArabeezy: "muwazzaf / muwazzafeh",
+                hint: "Person who works in an office, bank, company, etc.",
+               exampleAr: "أَخُوي مُوَظَّف فِي شَرِكَة، وَدَوَامُه مِن السَّبِت لِلْخَمِيس.",
+    exampleArabeezy: "akhuy muwazzaf fi sharekeh, w dawamo min el-sabet lil-khamees.",
+    exampleEn: "My brother is an employee at a company, and he works Saturday to Thursday."
+            },
+           
             {
                 id: "mu7adara",
                 ar: "مُحَاضَرَة",
                 en: "lecture / class session",
                 enArabeezy: "mu7aDara",
                 hint: "University/college class session.",
-                exampleAr: "عِنْدِي مُحَاضَرَة سَاعْتِين اليَوم.",
-                exampleArabeezy: "3indi mu7aDara sa3teen el-yom.",
-                exampleEn: "I have a two-hour lecture today.",
+              exampleAr: "عِنْدِي مُحَاضَرَة السَّاعَة تَمَانْيَة، فَلَازِم أَطْلَع بَدْرِي.",
+    exampleArabeezy: "3indi mu7aDara el-sa3a tamanye, fa lazem aTla3 badri.",
+    exampleEn: "I have a lecture at eight, so I have to leave early."
             },
             {
                 id: "maddeh",
@@ -208,9 +212,9 @@ export const lesson = {
                 en: "subject / course",
                 enArabeezy: "maddeh",
                 hint: "School/university subject. Plural: مَوَادّ.",
-                exampleAr: "عِنْدِي تَلَات مَوَادّ هالفصل.",
-                exampleArabeezy: "3ndy tlat mwad halfsl.",
-                exampleEn: "I have three subjects this semester.",
+              exampleAr: "هَالفَصْل عِنْدِي أَرْبَع مَوَادّ، وَأَصْعَب وَاحْدَة الرِّيَاضِيَات.",
+    exampleArabeezy: "hal-fasl 3indi arba3 mwadd, w as3ab wa7de el-riyaadiyat.",
+    exampleEn: "I have four subjects this semester, and math is the hardest."
             },
             {
                 id: "imti7an",
@@ -218,9 +222,9 @@ export const lesson = {
                 en: "exam / test",
                 enArabeezy: "imti7an",
                 hint: "Plural: اِمْتِحَانَات. Final exam = اِمْتِحَان نِهَائِي.",
-                exampleAr: "عِنْدِي اِمْتِحَان بَعْد المُحَاضَرَة.",
-                exampleArabeezy: "3indi imti7an ba3d el-mu7aDara.",
-                exampleEn: "I have an exam after the lecture.",
+                 exampleAr: "عِنْدِي اِمْتِحَان يَوم الخَمِيس، فَهَالأُسْبُوع مَشْغُول كْتِير.",
+    exampleArabeezy: "3indi imti7an yom el-khamees, fa hal-osboo3 mashghool kteer.",
+    exampleEn: "I have an exam on Thursday, so I'm very busy this week."
             },
             {
                 id: "wajeb",
@@ -243,12 +247,32 @@ export const lesson = {
                 exampleEn: "This is the first project I do at university.",
             },
             {
+    id: "tasleem",
+    ar: "تَسْلِيم",
+    en: "submission",
+    enArabeezy: "tasleem",
+    hint: "وقت تسليم الواجب أو المشروع.",
+    exampleAr: "تَسْلِيم المَشْرُوع يَوم الأَرْبَعَا.",
+    exampleArabeezy: "tasleem el-mashroo3 yom el-arba3a.",
+    exampleEn: "The project submission is on Wednesday."
+},
+{
+    id: "akher_maw3ed",
+    ar: "آخِر مَوْعِد",
+    en: "deadline",
+    enArabeezy: "akher maw3ed",
+    hint: "آخر وقت لازم تسلّم فيه الشغل أو المشروع.",
+    exampleAr: "آخِر مَوْعِد لِلتَّسْلِيم يَوم الأَرْبَعَا.",
+    exampleArabeezy: "akher maw3ed lil-tasleem yom el-arba3a.",
+    exampleEn: "The deadline for submission is Wednesday."
+},
+            {
                 id: "istira7a",
                 ar: "اِسْتِراحَة",
                 en: "break",
                 enArabeezy: "istira7a",
                 hint: "Pause from work or class.",
-                exampleAr: "بِنْخُد اِسْتِراحَة صْغيرَة بَين المُحاضَرات.",
+                exampleAr: "بِنْاخُد اِسْتِراحَة صْغيرَة بَين المُحاضَرات.",
                 exampleArabeezy: "bnkhd astra7a sghyra byn elm7adrat.",
                 exampleEn: "We take a short break between the lectures.",
             },
@@ -262,25 +286,16 @@ export const lesson = {
                 exampleArabeezy: "badros 3arabi fi el-jam3a.",
                 exampleEn: "I study Arabic at university.",
             },
-            {
-                id: "bat3allam",
-                ar: "بَتْعَلَّم",
-                en: "I learn",
-                enArabeezy: "bat3allam",
-                hint: "More general than study. Use with skills/languages: بَتْعَلَّم عَرَبِي / تَصْمِيم.",
-                exampleAr: "بَتْعَلَّم عَرَبِي فِي الجَامْعَة.",
-                exampleArabeezy: "bat3allam 3arabi fi el-jam3a.",
-                exampleEn: "I am learning Arabic at university.",
-            },
+            
             {
                 id: "bashteghil",
                 ar: "بَشْتِغِل",
                 en: "I work",
                 enArabeezy: "bashteghil",
                 hint: "Add where/how: بَشْتِغِل أُونْلَايْن / فِي مَكْتَب / دَوَام جُزْئِي.",
-                exampleAr: "بَشْتِغِل دَوَام جُزْئِي وَبَدْرُس كَمَان.",
-                exampleArabeezy: "bashteghil dawam joz2i w badros kaman.",
-                exampleEn: "I work part-time and study too.",
+                exampleAr: "أَخُوي بِيِشْتَغِل فِي مَكْتَب فِي غَزَّة.",
+            exampleArabeezy: "akhuy beyeShtaghel fi maktab fi Ghazza.",
+            exampleEn: "My brother works in an office in Gaza."
             },
             {
                 id: "bas2al",
@@ -321,9 +336,9 @@ export const lesson = {
                 en: "I review",
                 enArabeezy: "baraji3",
                 hint: "Use before exams or after class.",
-                exampleAr: "بَرَاجِع المَادَّة بَعْد المُحَاضَرَة.",
-                exampleArabeezy: "baraji3 el-maddeh ba3d el-mu7aDara.",
-                exampleEn: "I review the subject after the lecture.",
+                exampleAr: "بَرَاجِع المَادَّة قَبْل الاِمْتِحَان بِسَاعَة.",
+            exampleArabeezy: "baraji3 el-maddeh qabl el-imti7an bi-sa3a.",
+            exampleEn: "I review the subject an hour before the exam."
             },
             {
                 id: "bakammel",
@@ -331,20 +346,20 @@ export const lesson = {
                 en: "I continue / finish",
                 enArabeezy: "bakammel",
                 hint: "Use with homework/project/study: بَكَمِّل الوَاجِب / المَشْرُوع.",
-                exampleAr: "بَكَمِّل المَشْرُوع بِاللِّيل.",
-                exampleArabeezy: "bakammel el-mashroo3 bel-leel.",
-                exampleEn: "I finish the project at night.",
+                exampleAr: "بَعْد مَا أَرْجَع مِن الشُّغُل، بَكَمِّل المَشْرُوع.",
+    exampleArabeezy: "ba3d ma arja3 min el-shoghol, bakammel el-mashroo3.",
+    exampleEn: "After I come back from work, I continue the project."
             },
             {
-                id: "banja7_barsob",
-                ar: "بَنْجَح / بَرْسُب",
-                en: "I pass / I fail",
-                enArabeezy: "banja7 / barsob",
-                hint: "Use with exams/subjects. Sensitive word; use carefully.",
-                exampleAr: "بَنْجَح فِي الاِمْتِحَان، مِش بَرْسُب.",
-                exampleArabeezy: "banja7 fi el-imti7an, mish barsob.",
-                exampleEn: "I pass the exam; I don't fail.",
-            },
+            id: "banja7",
+            ar: "بَنْجَح",
+            en: "I pass (an exam)",
+            enArabeezy: "banja7",
+            hint: "Opposite: بَرْسُب (I fail).",
+            exampleAr: "إِذَا بَدْرُس كْتِير، بَنْجَح فِي الاِمْتِحَان.",
+            exampleArabeezy: "itha badros kteer, banja7 fi el-imti7an.",
+            exampleEn: "If I study a lot, I pass the exam."
+        },
             {
                 id: "lazem",
                 ar: "لَازِم",
@@ -356,24 +371,24 @@ export const lesson = {
                 exampleEn: "I have to finish the homework today.",
             },
             {
-                id: "ba2dar",
-                ar: "بَقْدَر / مَا بَقْدَر",
-                en: "I can / I can't",
-                enArabeezy: "ba2dar / ma ba2dar",
-                hint: "Use for ability or available time. After بَقْدَر, the next verb has no habitual بـ: بَكَمِّل → بَقْدَر أَكَمِّل.",
-                exampleAr: "بَقْدَر أَكَمِّل المَشْرُوع اليَوم.",
-                exampleArabeezy: "ba2dar akammel el-mashroo3 el-yom.",
-                exampleEn: "I can finish the project today.",
-            },
+            id: "ba2dar",
+            ar: "بَقْدَر / مَا بَقْدَر",
+            en: "I can / I can't",
+            enArabeezy: "ba2dar / ma ba2dar",
+            hint: "Expresses ability or availability. Next verb drops بـ: مَا بَقْدَر أَجِي.",
+            exampleAr: "مَا بَقْدَر أَجِي اليوم، عِنْدِي شُغُل كْتِير.",
+            exampleArabeezy: "ma ba2dar aji el-yom, 3indi shoghol kteer.",
+            exampleEn: "I can't come today; I have a lot of work."
+        },
             {
                 id: "mashghool",
                 ar: "مَشْغُول / مَشْغُولَة",
                 en: "busy",
                 enArabeezy: "mashghool / mashghooleh",
                 hint: "Male: مَشْغُول. Female: مَشْغُولَة. Plural: مَشْغُولِين.",
-                exampleAr: "اليَوم أَنَا مَشْغُول كْتِير.",
-                exampleArabeezy: "el-yom ana mashghool kteer.",
-                exampleEn: "Today I am very busy.",
+                exampleAr: "أَنَا هَالأُسْبُوع مَشْغُول كْتِير، عِنْدِي شُغُل وَامْتِحَان.",
+    exampleArabeezy: "ana hal-osboo3 mashghool kteer, 3indi shoghol w imti7an.",
+    exampleEn: "I'm very busy this week; I have work and an exam."
             },
             {
                 id: "jadwal",
@@ -381,9 +396,9 @@ export const lesson = {
                 en: "schedule",
                 enArabeezy: "jadwal",
                 hint: "My schedule = جَدْوَلِي. Full schedule = جَدْوَلِي مَلْيَان.",
-                exampleAr: "فِي جَدْوَلِي شُغُل وَجَامْعَة.",
-                exampleArabeezy: "fi jadwali shoghol w jam3a.",
-                exampleEn: "My schedule includes work and university.",
+                exampleAr: "جَدْوَلِي مَلْيَان هَاد الأُسْبُوع.",
+            exampleArabeezy: "jadwali malyan had el-usboo3.",
+            exampleEn: "My schedule is full this week."
             },
             {
                 id: "usboo3",
@@ -391,9 +406,9 @@ export const lesson = {
                 en: "week",
                 enArabeezy: "usboo3",
                 hint: "This week = الأُسْبُوع هَادَا. Next week = الأُسْبُوع الجَاي.",
-                exampleAr: "عِنْدِي اِمْتِحَان هَاد الأُسْبُوع.",
-                exampleArabeezy: "3indi imti7an had el-usboo3.",
-                exampleEn: "I have an exam this week.",
+               exampleAr: "الأُسْبُوع الجَاي عِنْدْنَا اِمْتِحَانَات.",
+            exampleArabeezy: "el-usboo3 el-jay 3indna imti7anat.",
+            exampleEn: "Next week we have exams."
             },
             {
                 id: "shahar",
@@ -401,9 +416,9 @@ export const lesson = {
                 en: "month",
                 enArabeezy: "shahar",
                 hint: "In speech you can say شهر 6 / شهر ستة, or الشهر الجاي.",
-                exampleAr: "هَاد الشَّهْر عِنْدِي اِمْتِحَان.",
-                exampleArabeezy: "had el-shahar 3indi imti7an.",
-                exampleEn: "This month I have an exam.",
+                 exampleAr: "الشَّهْر الجَاي عِنْدِي اِمْتِحَانَات كْتِير.",
+    exampleArabeezy: "el-shahar el-jay 3indi imti7anat kteer.",
+    exampleEn: "Next month I have a lot of exams."
             },
             {
                 id: "ayy_yom",
@@ -431,9 +446,9 @@ export const lesson = {
                 en: "from Saturday to Thursday",
                 enArabeezy: "min el-sabet lil-khamees",
                 hint: "Typical study/work week in many Arab countries.",
-                exampleAr: "بَشْتِغِل مِن السَّبِت لِلْخَمِيس.",
-                exampleArabeezy: "bashteghil min el-sabet lil-khamees.",
-                exampleEn: "I work from Saturday to Thursday.",
+                exampleAr: "أَبُوي بَشْتِغِل مِن السَّبِت لِلْخَمِيس، وَالجُمْعَة بَرِيح.",
+    exampleArabeezy: "abuy bashteghil min el-sabet lil-khamees, wel-jom3a baree7.",
+    exampleEn: "My father works Saturday to Thursday, and rests on Friday."
             },
             {
                 id: "mahameh",
@@ -441,9 +456,9 @@ export const lesson = {
                 en: "task",
                 enArabeezy: "mahammEh",
                 hint: "Task at work or for a project. Plural: مَهَمَّات.",
-                exampleAr: "عِنْدِي مَهَمَّة مِن المُدِير.",
-                exampleArabeezy: "3indi mahammeh min el-mudeer.",
-                exampleEn: "I have a task from the manager.",
+               exampleAr: "عِنْدِي مَهَمَّة لَازِم أَخَلِّصْهَا اليَوم.",
+    exampleArabeezy: "3indi mahammeh lazem akhalliSha el-yom.",
+    exampleEn: "I have a task that I have to finish today."
             },
             {
                 id: "wa2t_faDi",
@@ -451,9 +466,9 @@ export const lesson = {
                 en: "free time",
                 enArabeezy: "wa2t faDi",
                 hint: "Time without work or study.",
-                exampleAr: "مَا عِنْدِي وَقْت فَاضِي اليَوم.",
-                exampleArabeezy: "ma 3indi wa2t faDi el-yom.",
-                exampleEn: "I have no free time today.",
+                exampleAr: "لَمَّا يِكُون عِنْدِي وَقْت فَاضِي، بَطْلَع مَع أَصْحَابِي.",
+    exampleArabeezy: "lamma ykoon 3indi wa2t faDi, baTla3 ma3 aS7abi.",
+    exampleEn: "When I have free time, I go out with my friends."
             },
         ],
     },
@@ -659,37 +674,7 @@ export const lesson = {
                 { prompt: "Complete for a group: إِحْنَا ___ المَشْرُوع. (finished)", options: ["مُخَلِّصِين", "مُخَلِّص", "بَمُخَلِّص"], correct: "مُخَلِّصِين", explanation: "The state agrees with the plural subject through ـين." },
             ],
         },
-        {
-            title: "5. Describing schedules with عندي, من...لـ, and ما عنديش",
-            short: "عِنْدِي دَوَام — مِن تَلَاتَة لَسَبْعَة — مَا عِنْدِيش مُحَاضَرَات",
-            description: "Work and study schedules often use possession instead of an English verb: عِنْدِي امْتِحَان literally means ‘at me is an exam’ but naturally means ‘I have an exam’. A time range uses مِن...لَـ. In Gaza speech, مَا عِنْدِيش is a common emphatic negative alongside مَا عِنْدِي.",
-            table: {
-                title: "Schedule-building patterns",
-                headers: ["Function", "Pattern", "Example", "Meaning"],
-                rows: [
-                    ["having", "عِنْد + person", "عِنْدِي دَوَام", "I have work/a shift"],
-                    ["not having", "مَا عِنْد + person (ـش)", "مَا عِنْدِيش مُحَاضَرَات", "I do not have lectures"],
-                    ["time range", "مِن...لَـ", "مِن تَلَاتَة لَسَبْعَة", "from three to seven"],
-                    ["deadline/day", "مَوْعِد + item", "مَوْعِد المَشْرُوع يَوم الخَمِيس", "the project is due Thursday"],
-                    ["frequency", "كُلّ / مَرَّتَيْن", "مَرَّتَيْن بِالأُسْبُوع", "twice a week"],
-                ],
-            },
-            examples: [
-                { ar: "عِنْدِي دَوَام مِن التِّسْعَة لَلخَمْسَة.", arabeezy: "3indi dawam min et-tis3a lal-khamseh.", en: "I work/have a shift from nine to five." },
-                { ar: "بُكْرَة مَا عِنْدِيش مُحَاضَرَات، بَس عِنْدِي امْتِحَان.", arabeezy: "bukra ma 3indeesh mu7aDarat, bas 3indi imti7an.", en: "Tomorrow I don’t have lectures, but I have an exam." },
-                { ar: "مَوْعِد المَشْرُوع يَوم الخَمِيس.", arabeezy: "maw3ed el-mashroo3 yom el-khamees.", en: "The project is due on Thursday." },
-            ],
-            commonMistakes: [
-                "Do not translate ‘I have’ with a possession verb copied from English. Use عِنْدِي for appointments, exams, work, and belongings.",
-                "In a range, مِن gives the start and لَـ gives the endpoint: مِن السَّبِت لَلخَمِيس.",
-                "مَا عِنْدِي and مَا عِنْدِيش are both understandable. The ـش form is especially conversational and should be kept as one negative frame.",
-            ],
-            exercises: [
-                { prompt: "Choose: ‘I have an exam on Thursday.’", options: ["عِنْدِي امْتِحَان يَوم الخَمِيس.", "أَنَا امْتِحَان يَوم الخَمِيس.", "فِي امْتِحَانِي الخَمِيس أَنَا."], correct: "عِنْدِي امْتِحَان يَوم الخَمِيس.", explanation: "عِنْدِي is the natural possession pattern for having an exam." },
-                { prompt: "Complete the range: مِن السَّبِت ___ الخَمِيس.", options: ["لَـ", "مَع", "عَشَان"], correct: "لَـ", explanation: "The range is مِن...لَـ: from...to." },
-                { prompt: "Which is a natural Gaza-style negative: ‘I don’t have lectures’?", options: ["مَا عِنْدِيش مُحَاضَرَات.", "مِش عِنْدِي بِمُحَاضَرَات.", "لَا عِنْدِي مُحَاضَرَات."], correct: "مَا عِنْدِيش مُحَاضَرَات.", explanation: "مَا...ـش wraps the possession form in a conversational negative." },
-            ],
-        },
+        
     ],
 
     microChecks: {
@@ -703,6 +688,25 @@ export const lesson = {
                 options: ["شُغُل", "دَوَام", "دَوَام كَامِل", "دَوَام جُزْئِي"],
                 correct: "شُغُل",
             },
+            {
+  "id": "work_mc2",
+  "type": "reorder",
+  "prompt": "Reorder the Arabic words to match: My university is a bit far from the house.",
+  "options": [
+    "شَوَيّ",
+    "عَن",
+    "البَيْت.",
+    "جَامْعْتِي",
+    "بَعِيدَة"
+  ],
+  "correct": [
+    "جَامْعْتِي",
+    "بَعِيدَة",
+    "شَوَيّ",
+    "عَن",
+    "البَيْت."
+  ]
+},
             {
                 id: "work_mc2",
                 type: "choose",
@@ -730,6 +734,18 @@ export const lesson = {
                 ]
             },
             {
+  "id": "work_mc4",
+  "type": "complete",
+  "prompt": "Complete the Arabic sentence for: My brother is an employee at a company, and his shift is from Saturday to Thursday.\nأَخُوي ___ فِي شَرِكَة، وَدَوَامُه مِن السَّبِت لِلْخَمِيس.",
+  "options": [
+    "مُوَظَّف",
+    "طَالِب",
+    "تَاجِر",
+    "دَكْتُور"
+  ],
+  "correct": "مُوَظَّف"
+},
+            {
                 id: "work_mc4",
                 type: "complete",
                 prompt: "Complete the Arabic sentence for: I have an exam after the lecture.\nعِنْدِي ___ بَعْد المُحَاضَرَة.",
@@ -744,7 +760,7 @@ export const lesson = {
                 correct: "بَدْرُس",
             },
             {
-                "id": "work_mc5",
+                "id": "work_mc6",
                 "type": "complete",
                 "prompt": "Complete the Arabic sentence for: I train foreign students in the Palestinian language.\n___ طُلَّاب أَجَانِب عَلَى اللُّغَة الْفِلَسْطِينِيَّة.",
                 "options": [
@@ -756,7 +772,7 @@ export const lesson = {
                 "correct": "بَدَرِّب"
             },
             {
-                "id": "work_mc6",
+                "id": "work_mc7",
                 "type": "reorder",
                 "prompt": "Reorder the Arabic words to match: I can complete the project today.",
                 "options": [
@@ -773,7 +789,7 @@ export const lesson = {
                 ]
             },
             {
-                "id": "work_mc7",
+                "id": "work_mc8",
                 "type": "complete",
                 "prompt": "Complete the Arabic sentence for: I have an exam this week.\nعِنْدِي اِمْتِحَان هَاد ___.",
                 "options": [
@@ -784,6 +800,18 @@ export const lesson = {
                 ],
                 "correct": "الأُسْبُوع"
             },
+            {
+  "id": "work_mc9",
+  "type": "complete",
+  "prompt": "Complete the Arabic dialogue for: How many hours is your shift today? - Four hours.\n___ دَوَامَك اليَوم؟ أَرْبَع سَاعَات.",
+  "options": [
+    "كَم سَاعَة",
+    "قَدِّيش سِعِر",
+    "وِين مَكَان",
+    "لِيش كُلّ"
+  ],
+  "correct": "كَم سَاعَة"
+}
         ],
     },
 
@@ -891,12 +919,12 @@ export const lesson = {
                     { prompt: "Correct: هُوَّ مَشْغُولَة عَشَان عِنْدُه اِمْتِحَان.", arabeezy: "huwwe mashghooleh 3ashan 3indo imti7an.", answer: "هُوَّ مَشْغُول عَشَان عِنْدُه اِمْتِحَان." },
                 ],
                 reorderSentences: [
-                    { prompt: "Build: We study together.", arabeezy: "i7na bindros ma3 ba3D.", words: ["إِحْنَا", "بِنْدْرُس", "مَع بَعْض."], answer: "إِحْنَا بِنْدْرُس مَع بَعْض." },
-                    { prompt: "Build: They work from Saturday to Thursday.", arabeezy: "humme bishtighlu min es-sabt lil-khamees.", words: ["هُمَّ", "بِشْتِغْلُوا", "مِن السَّبِت", "لِلْخَمِيس."], answer: "هُمَّ بِشْتِغْلُوا مِن السَّبِت لِلْخَمِيس." },
+                    { prompt: "Build: We study together.", arabeezy: "i7na bindros ma3 ba3D.", words: ["بِنْدْرُس", "إِحْنَا", "مَع بَعْض."], answer: "إِحْنَا بِنْدْرُس مَع بَعْض." },
+                    { prompt: "Build: They work from Saturday to Thursday.", arabeezy: "humme bishtighlu min es-sabt lil-khamees.", words: ["مِن السَّبِت","بِشْتِغْلُوا","هُمَّ",   "لِلْخَمِيس."], answer: "هُمَّ بِشْتِغْلُوا مِن السَّبِت لِلْخَمِيس." },
                     { prompt: "Build the question: How many hours is your shift?", arabeezy: "kam sa3a dawamak?", words: ["كَم سَاعَة", "دَوَامَك؟"], answer: "كَم سَاعَة دَوَامَك؟" },
-                    { prompt: "Review: After class I take the bus.", arabeezy: "ba3d ed-dars barkab el-bas.", words: ["بَعْد الدَّرْس", "بَرْكَب", "البَاص."], answer: "بَعْد الدَّرْس بَرْكَب البَاص." },
-                    { prompt: "Build: She reviews for the exam every day.", arabeezy: "hiyyeh bitraje3 lil-imti7an kul yom.", words: ["هِيَّ", "بِتْرَاجِع", "لِلامْتِحَان", "كُلّ يَوم."], answer: "هِيَّ بِتْرَاجِع لِلامْتِحَان كُلّ يَوم." },
-                    { prompt: "Build the question: Can you (plural) finish the project today?", arabeezy: "bti2daru tkammilu el-mashroo3 el-yom?", words: ["بِتِقْدَرُوا", "تْكَمِّلُوا", "المَشْرُوع اليَوم؟"], answer: "بِتِقْدَرُوا تْكَمِّلُوا المَشْرُوع اليَوم؟" },
+                    { prompt: "Review: After class I take the bus.", arabeezy: "ba3d ed-dars barkab el-bas.", words: ["بَرْكَب","بَعْد الدَّرْس",  "البَاص."], answer: "بَعْد الدَّرْس بَرْكَب البَاص." },
+                    { prompt: "Build: She reviews for the exam every day.", arabeezy: "hiyyeh bitraje3 lil-imti7an kul yom.", words: ["لِلامْتِحَان","بِتْرَاجِع","هِيَّ",   "كُلّ يَوم."], answer: "هِيَّ بِتْرَاجِع لِلامْتِحَان كُلّ يَوم." },
+                    { prompt: "Build the question: Can you (plural) finish the project today?", arabeezy: "bti2daru tkammilu el-mashroo3 el-yom?", words: ["تْكَمِّلُوا","بِتِقْدَرُوا",  "المَشْرُوع اليَوم؟"], answer: "بِتِقْدَرُوا تْكَمِّلُوا المَشْرُوع اليَوم؟" },
                 ],
             },
         ],
