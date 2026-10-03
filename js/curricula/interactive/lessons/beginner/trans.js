@@ -579,6 +579,23 @@ export const lesson = {
             },
             {
                 "id": "trans_mc3",
+                "type": "reorder",
+                "prompt": "Reorder the Arabic words to match: The taxi stopped at the red light.",
+                "options": [
+                    "الحَمْرَا",
+                    "وِقِف",
+                    "عَالإِشَارَة",
+                    "التَّاكْسِي"
+                ],
+                "correct": [
+                    "التَّاكْسِي",
+                    "وِقِف",
+                    "عَالإِشَارَة",
+                    "الحَمْرَا"
+                ]
+            },
+            {
+                "id": "trans_mc4",
                 "type": "choose",
                 "prompt": "Choose the Palestinian Arabic sentence for: My grandma's house is close, I go on foot.",
                 "options": [
@@ -607,17 +624,17 @@ export const lesson = {
                 ]
             },
             {
-  "id": "trans_mc5",
-  "type": "complete",
-  "prompt": "Complete the Arabic sentence for: I arrive at class at nine o'clock.\n___ عَالدَّرْس السَّاعَة تِسْعَة.",
-  "options": [
-    "بَوْصَل",
-    "بَرْجَع",
-    "بَطْلَع",
-    "بَنَام"
-  ],
-  "correct": "بَوْصَل"
-},
+                "id": "trans_mc5",
+                "type": "complete",
+                "prompt": "Complete the Arabic sentence for: I arrive at class at nine o'clock.\n___ عَالدَّرْس السَّاعَة تِسْعَة.",
+                "options": [
+                    "بَوْصَل",
+                    "بَرْجَع",
+                    "بَطْلَع",
+                    "بَنَام"
+                ],
+                "correct": "بَوْصَل"
+            },
             {
                 id: "trans_mc6",
                 type: "complete",
@@ -732,11 +749,11 @@ export const lesson = {
                     { prompt: "Use the correct preposition. Correct: المَوْقِف قَرِيب عَلَى البِيت.", arabeezy: "el-mawqif qareeb 3ala el-beit.", answer: "المَوْقِف قَرِيب مِن البِيت." },
                 ],
                 reorderSentences: [
-                    { prompt: "Build: I take the bus every day.", arabeezy: "barkab el-bas kul yom.", words: ["بَرْكَب", "البَاص", "كُلّ يَوم."], answer: "بَرْكَب البَاص كُلّ يَوم." },
-                    { prompt: "Build: I get off here, please.", arabeezy: "banzal hena, law sama7t.", words: ["بَنْزَل", "هِنَا،", "لَوْ سَمَحْت."], answer: "بَنْزَل هِنَا، لَوْ سَمَحْت." },
-                    { prompt: "Build: Go straight, then turn right.", arabeezy: "roo7 dughri, ba3deen lif yameen.", words: ["رُوح دُغْرِي،", "بَعْدِين", "لِف يَمِين."], answer: "رُوح دُغْرِي، بَعْدِين لِف يَمِين." },
-                    { prompt: "Review: After class I want falafel.", arabeezy: "ba3d ed-dars baddi falafel.", words: ["بَعْد الدَّرْس", "بَدِّي", "فَلَافِل."], answer: "بَعْد الدَّرْس بَدِّي فَلَافِل." },
-                    { prompt: "Put the words in order: The bus stop is near the house.", arabeezy: "mawqif el-basat qareeb min el-beit.", words: ["مِن البِيت.", "مَوْقِف البَاصَات", "قَرِيب"], answer: "مَوْقِف البَاصَات قَرِيب مِن البِيت." },
+                    { prompt: "Build: I take the bus every day.", arabeezy: "barkab el-bas kul yom.", words: ["البَاص","بَرْكَب",  "كُلّ يَوم."], answer: "بَرْكَب البَاص كُلّ يَوم." },
+                    { prompt: "Build: I get off here, please.", arabeezy: "banzal hena, law sama7t.", words: ["بَنْزَل", "لَوْ سَمَحْت." ,"هِنَا،"], answer: "بَنْزَل هِنَا، لَوْ سَمَحْت." },
+                    { prompt: "Build: Go straight, then turn right.", arabeezy: "roo7 dughri, ba3deen lif yameen.", words: ["بَعْدِين","رُوح دُغْرِي،",  "لِف يَمِين."], answer: "رُوح دُغْرِي، بَعْدِين لِف يَمِين." },
+                    { prompt: "Review: After class I want falafel.", arabeezy: "ba3d ed-dars baddi falafel.", words: [ "بَدِّي","بَعْد الدَّرْس", "فَلَافِل."], answer: "بَعْد الدَّرْس بَدِّي فَلَافِل." },
+                    { prompt: "Put the words in order: The bus stop is near the house.", arabeezy: "mawqif el-basat qareeb min el-beit.", words: ["مَوْقِف البَاصَات","مِن البِيت.",  "قَرِيب"], answer: "مَوْقِف البَاصَات قَرِيب مِن البِيت." },
                     { prompt: "Put the words in order: I was late because of traffic.", arabeezy: "it2akhkhart 3ashan ez-za7meh.", words: ["عَشَان", "اِتْأَخَّرْت", "الزَّحْمَة."], answer: "اِتْأَخَّرْت عَشَان الزَّحْمَة." },
                 ],
             },

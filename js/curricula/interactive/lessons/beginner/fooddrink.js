@@ -154,9 +154,9 @@ export const lesson = {
                 enArabeezy: "maqlubeh",
                 hint:
                     "Traditional Palestinian dish with rice, vegetables, and meat, flipped upside down.",
-                exampleAr: "مَقْلُوبِة جَاج مِن أَشْهَر أَكَلَات فِلَسْطِين.",
-                exampleArabeezy: "mqlwba jaj mn ashhr aklat flstyn.",
-                exampleEn: "Chicken maqlubeh is one of the most famous Palestinian dishes.",
+                exampleAr: "مَقْلُوبِة  مِن أَشْهَر أَكَلَات فِلَسْطِين.",
+                exampleArabeezy: "mqlwba  mn ashhr aklat flstyn.",
+                exampleEn: " maqlubeh is one of the most famous Palestinian dishes.",
             },
             {
                 id: "dajaj",
@@ -332,9 +332,9 @@ export const lesson = {
                 en: "juice",
                 enArabeezy: "3aseer",
                 hint: "Plural/types: عَصَايِر. Orange juice = عَصِير بُرْتُقَال.",
-                exampleAr: "بِالمَسَا بَشْرَب عَصِير.",
-                exampleArabeezy: "bel-masa bashrab 3aseer.",
-                exampleEn: "In the evening I drink juice.",
+                exampleAr: "بِدَّك عَصِير بُرْتُقَال ولا مَيّ؟",
+                exampleArabeezy: "biddak 3aseer burtuqal walla mayy?",
+                exampleEn: "Do you want orange juice or water?",
             },
             {
                 id: "ja3an",
@@ -342,9 +342,9 @@ export const lesson = {
                 en: "hungry",
                 enArabeezy: "ja3an / ja3aneh",
                 hint: "Male: جَعَان. Female: جَعَانَة. Plural: جَعَانِين.",
-                exampleAr: "بَعْد الشُّغُل أَنَا جَعَان.",
-                exampleArabeezy: "ba3d el-shughul ana ja3an.",
-                exampleEn: "After work I am hungry.",
+                exampleAr: "أَنَا كْتِير جَعَان، وِين المَطْعَم؟",
+                exampleArabeezy: "ana kteer ja3an, wen el-mat3am?",
+                exampleEn: "I'm very hungry, where is the restaurant?",
             },
             {
                 id: "3atshan",
@@ -352,9 +352,9 @@ export const lesson = {
                 en: "thirsty",
                 enArabeezy: "3atshan / 3atshaneh",
                 hint: "Male: عَطْشَان. Female: عَطْشَانَة. Plural: عَطْشَانِين.",
-                exampleAr: "بَعْد الشُّغُل أَنَا عَطْشَان.",
-                exampleArabeezy: "ba3d el-shughul ana 3atshan.",
-                exampleEn: "After work I am thirsty.",
+                exampleAr: "أَنَا عَطْشَانَة، لَوْ سَمَحْت بدي مَيّ.",
+                exampleArabeezy: "ana 3atshaneh, law sama7ti biddi mayy.",
+                exampleEn: "I'm thirsty, please I want water.",
             },
             {
                 id: "t3am",
@@ -637,37 +637,7 @@ export const lesson = {
                 { prompt: "Complete: ___ شَاي means ‘two cups of tea’.", options: ["كَاسْتَيْن", "كَاسَة", "تَلَات كَاسَات"], correct: "كَاسْتَيْن", explanation: "كَاسْتَيْن is the common dual form: two cups/glasses." },
             ],
         },
-        {
-            title: "4. Feminine sound plurals in food and daily speech",
-            short: "سَلَطَة ← سَلَطَات — كَاسَة ← كَاسَات",
-            description: "Many feminine nouns ending in ـة form a spoken plural with ـات. Before adding ـات, the final ـة is heard as t: سَلَطَة → سَلَطَات. This is a useful pattern, not a promise: Arabic also has many broken plurals, so each new noun should still be learned with its real plural.",
-            table: {
-                title: "Common ـات plurals in this unit",
-                headers: ["Singular", "Plural", "Arabizi plural", "Meaning"],
-                rows: [
-                    ["سَلَطَة", "سَلَطَات", "salaTat", "salads"],
-                    ["كَاسَة", "كَاسَات", "kasat", "cups / glasses"],
-                    ["وَجْبَة", "وَجْبَات", "wajbat", "meals"],
-                    ["طَلْبِيَّة", "طَلْبِيَّات", "Talabiyyat", "orders"],
-                    ["قَنِّينَة", "قَنَانِي / قَنِّينَات", "qanani / qanneenat", "bottles (two heard options)"],
-                ],
-            },
-            examples: [
-                { ar: "عِنْدْهُم سَلَطَات زَاكْيَات كْتِير.", arabeezy: "3indhum salaTat zakyat kteer.", en: "They have many tasty salads." },
-                { ar: "بَدِّنَا تَلَات كَاسَات وَقَنِّينَتَيْن مَيّ.", arabeezy: "baddna talat kasat w qanneentein mayy.", en: "We want three glasses and two bottles of water." },
-                { ar: "وَجْبَات المَطْعَم كْبِيرَة وَمْشَبِّعَة.", arabeezy: "wajbat el-maT3am kbeereh w mshabbi3a.", en: "The restaurant’s meals are large and filling." },
-            ],
-            commonMistakes: [
-                "Do not add ـات to every feminine noun. مَدِينَة → مُدُن and فَاكْهَة → فَوَاكِه show that broken plurals remain common.",
-                "Adjective agreement with non-human plurals varies in speech. You may hear plural agreement (سَلَطَات زَاكْيَات) and feminine-singular agreement in some contexts. Learn what speakers use with each chunk.",
-                "The written ـة is pronounced as t when an ending follows or inside many connected forms: سَلَطَة → سَلَطَات.",
-            ],
-            exercises: [
-                { prompt: "Choose the plural of سَلَطَة.", options: ["سَلَطَات", "سَلَطُون", "سُلُوط"], correct: "سَلَطَات", explanation: "Replace the feminine ending ـة with the plural ending ـات." },
-                { prompt: "Which singular/plural pair is correct?", options: ["وَجْبَة ← وَجْبَات", "كَاسَة ← كَاسُون", "فَاكْهَة ← فَاكْهَات دائمًا"], correct: "وَجْبَة ← وَجْبَات", explanation: "وَجْبَات is a regular, common feminine sound plural." },
-                { prompt: "What happens to the sound of ـة in سَلَطَات?", options: ["It becomes a clear t sound before ـات.", "It becomes w.", "It disappears with no plural ending."], correct: "It becomes a clear t sound before ـات.", explanation: "The connected stem exposes t: salaTa → salaTat." },
-            ],
-        },
+
     ],
 
     microChecks: {
@@ -765,6 +735,25 @@ export const lesson = {
             },
             {
                 "id": "food_mc8",
+                "type": "reorder",
+                "prompt": "Reorder the Arabic words to match: I am very hungry, where is the restaurant?",
+                "options": [
+                    "وِين",
+                    "جَعَان،",
+                    "أَنَا",
+                    "المَطْعَم؟",
+                    "كْتِير"
+                ],
+                "correct": [
+                    "أَنَا",
+                    "كْتِير",
+                    "جَعَان،",
+                    "وِين",
+                    "المَطْعَم؟"
+                ]
+            },
+            {
+                "id": "food_mc9",
                 "type": "choose",
                 "prompt": "Choose the Palestinian Arabic sentence for: Today I don't feel like having rice.",
                 "options": [
@@ -776,18 +765,18 @@ export const lesson = {
                 "correct": "اليَوم مِش جَاي عَلَى بَالِي رُزّ."
             },
             {
-  "id": "food_mc9",
-  "type": "complete",
-  "prompt": "Complete the Arabic sentence for: I prefer fish over meat.\nبِفَضَّل السَّمَك ___ اللَّحِم.",
-  "options": [
-    "عَنْ",
-    "مِن",
-    "فِي",
-    "مَع"
-  ],
-  "correct": "عَنْ"
-},
-            
+                "id": "food_mc9",
+                "type": "complete",
+                "prompt": "Complete the Arabic sentence for: I prefer fish over meat.\nبِفَضَّل السَّمَك ___ اللَّحِم.",
+                "options": [
+                    "عَنْ",
+                    "مِن",
+                    "فِي",
+                    "مَع"
+                ],
+                "correct": "عَنْ"
+            },
+
         ],
     },
 
@@ -879,10 +868,10 @@ export const lesson = {
                 ],
                 reorderSentences: [
                     { prompt: "Build a question to one woman: What do you eat in the morning?", arabeezy: "shu btakli eS-Subu7?", words: ["الصُّبُح؟", "شُو", "بِتَاكْلِي"], answer: "شُو بِتَاكْلِي الصُّبُح؟" },
-                    { prompt: "Build: They do not like fish.", arabeezy: "humme ma bi7ibbu el-samak.", words: ["هُمَّ", "مَا بِحِبُّوا", "السَّمَك."], answer: "هُمَّ مَا بِحِبُّوا السَّمَك." },
+                    { prompt: "Build: They do not like fish.", arabeezy: "humme ma bi7ibbu el-samak.", words: ["مَا بِحِبُّوا","هُمَّ",  "السَّمَك."], answer: "هُمَّ مَا بِحِبُّوا السَّمَك." },
                     { prompt: "Build: We eat lunch with our family.", arabeezy: "bnaakul el-ghada ma3 ahlna.", words: ["مَع أَهْلْنَا.", "بِنَاكُل", "إِحْنَا", "الغَدَا"], answer: "إِحْنَا بِنَاكُل الغَدَا مَع أَهْلْنَا." },
                     { prompt: "Build a polite offer to one man.", arabeezy: "tfaddal kol shway jaj.", words: ["شُوَيّ", "تْفَضَّل", "جَاج.", "كُل"], answer: "تْفَضَّل كُل شُوَيّ جَاج." },
-                    { prompt: "Build: My sister is thirsty, but she does not want juice.", arabeezy: "ukhti 3atshaneh bas ma biddha 3aseer.", words: ["أُخْتِي", "عَطْشَانَة،", "بَس", "مَا بَدَّهَا", "عَصِير."], answer: "أُخْتِي عَطْشَانَة، بَس مَا بَدَّهَا عَصِير." },
+                    { prompt: "Build: My sister is thirsty, but she does not want juice.", arabeezy: "ukhti 3atshaneh bas ma biddha 3aseer.", words: ["عَطْشَانَة،","أُخْتِي", "مَا بَدَّهَا", "بَس",  "عَصِير."], answer: "أُخْتِي عَطْشَانَة، بَس مَا بَدَّهَا عَصِير." },
                 ],
             },
         ],

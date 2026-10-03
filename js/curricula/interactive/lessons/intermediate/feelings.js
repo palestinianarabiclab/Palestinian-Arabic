@@ -51,16 +51,16 @@ export const lesson = {
                 exampleArabeezy: "howwa za3lan shway min el-7aki illi Sar.",
                 exampleEn: "He is a little upset about what happened.",
             },
-            {
-                id: "ta3ban",
-                ar: "تَعْبَان / تَعْبَانَة",
-                en: "tired",
-                enArabeezy: "ta3ban / ta3bane",
-                hint: "Physical or mental tiredness. Plural: تَعْبَانِين.",
-                exampleAr: "بَعْد الأُسْبُوع الطَّوِيل حَاسِس حَالِي تَعْبَان.",
-                exampleArabeezy: "ba3d el-osboo3 eT-Taweel 7ases 7ali ta3ban.",
-                exampleEn: "After the long week, I feel tired.",
-            },
+          {
+        id: "mahdood_7eeli",
+        ar: "مَهْدُود حِيلِي",
+        en: "Exhausted / Completely drained",
+        enArabeezy: "mahdood 7eeli",
+        hint: "Stronger than 'tired'. Female speaker: مَهْدُود حِيلِي also applies or مَهْدُودَة.",
+        exampleAr: "رِجِعْت مِن الطَّرِيق وِمَهْدُود حِيلِي مِن التَّعَب.",
+        exampleArabeezy: "rije3t min et-Tareeq w mahdood 7eeli min et-ta3ab.",
+        exampleEn: "I came back from the commute completely drained from exhaustion."
+    },
             {
                 id: "zahgan",
                 ar: "زَهْقَان / زَهْقَانَة",
@@ -112,6 +112,16 @@ export const lesson = {
                 exampleEn: "I'm scared of the appointment, but my mother is with me.",
             },
             {
+        id: "makhnooq",
+        ar: "مَخْنُوق",
+        en: "Suffocated / Overwhelmed / Down",
+        enArabeezy: "makhnooq",
+        hint: "Common Gazan expression for feeling emotionally overwhelmed or down. Female: مَخْنُوقَة (makhnooqa).",
+        exampleAr: "حَاسِس حَالِي مَخْنُوق وِبَدِّي أَطْلَع أَغَيِّر جَوّ.",
+        exampleArabeezy: "7ases 7ali makhnooq w baddi aTla3 aghayyer jaww.",
+        exampleEn: "I feel overwhelmed and I want to go out to refresh my mind."
+    },
+            {
                 id: "mertah",
                 ar: "مِرْتَاح / مِرْتَاحَة",
                 en: "comfortable / relaxed",
@@ -152,25 +162,16 @@ export const lesson = {
                 exampleEn: "Right now I'm not in the mood to go out; I want to stay home.",
             },
             {
-                id: "ma_3indi_taqa",
-                ar: "فِش عِنْدِي طَاقَة",
-                en: "I have no energy",
-                enArabeezy: "fish 3indi Taqa",
-                hint: "Natural for low energy. To advise someone: إِذَا فِش عِنْدَك طَاقَة، خُد رَاحَة.",
-                exampleAr: "اليَوم فِش عِنْدِي طَاقَة، فَمِش رَاح أَرُوح عَالنَّادِي.",
-                exampleArabeezy: "el-yom fish 3indi Taqa, fa-mish ra7 aroo7 3an-nadi.",
-                exampleEn: "Today I have no energy, so I won't go to the gym.",
-            },
-            {
-                id: "bahaje_lira7a",
-                ar: "بِحَاجَة لِرَاحَة",
-                en: "need a break / need rest",
-                enArabeezy: "bi7aje la-ra7a",
-                hint: "Natural self-care phrase. Also: بَدِّي أَرْتَاح.",
-                exampleAr: "حَاسِس إِنِّي بِحَاجَة لِرَاحَة يَوم أَو يَومِين.",
-                exampleArabeezy: "7ases inni bi7aje la-ra7a yom aw yomain.",
-                exampleEn: "I feel I need a break for a day or two.",
-            },
+        id: "ma_feesh_7eel",
+        ar: "مَا فِيش حِيل",
+        en: "No energy / No strength left",
+        enArabeezy: "ma feesh 7eel",
+        hint: "Everyday Gazan expression for physical or mental exhaustion.",
+        exampleAr: "مَا فِيش حِيل أَمْشِي مَسَافَة طَوِيلَة اليَوْم.",
+        exampleArabeezy: "ma feesh 7eel amshi masafa Taweela el-yom.",
+        exampleEn: "I have no energy to walk a long distance today."
+    },
+           
             {
                 id: "mish_mista3ed",
                 ar: "مِش مُسْتَعِدّ / مُسْتَعِدَّة",
@@ -192,15 +193,15 @@ export const lesson = {
                 exampleEn: "In this topic I feel a little lost.",
             },
             {
-                id: "sa7i",
-                ar: "صَاحِي / صَاحْيَة",
-                en: "awake / alert",
-                enArabeezy: "Sa7i / Sa7ye",
-                hint: "Natural for being awake and alert. Opposite of sleepy/tired.",
-                exampleAr: "اليَوم صَاحِي بَدْرِي وَحَاسِس حَالِي أَحْسَن.",
-                exampleArabeezy: "el-yom Sa7i badri w 7ases 7ali a7san.",
-                exampleEn: "Today I'm awake early and I feel better.",
-            },
+        id: "mitradded",
+        ar: "مِتْرَدِّد",
+        en: "Hesitant / Undecided",
+        enArabeezy: "mitradded",
+        hint: "Female: مِتْرَدِّدَة (mitraddida). Feeling unsure about a decision or plan.",
+        exampleAr: "أَنَا مِتْرَدِّد أَرْوَح مَعَهُم وِالَّا أَقْعُد فِي البَيْت.",
+        exampleArabeezy: "ana mitradded arwa7 ma3ahum w illa aq3ud fil-beet.",
+        exampleEn: "I am hesitant whether to go with them or stay at home."
+    },
             {
                 id: "mish_na2esni",
                 ar: "مِش نَاقِصْنِي",
@@ -211,16 +212,7 @@ export const lesson = {
                 exampleArabeezy: "mish na2eSni doshe el-yom, rasi byoja3ni.",
                 exampleEn: "I really can't deal with noise today; my head hurts.",
             },
-            {
-                id: "ba7is",
-                ar: "بَحِسّ",
-                en: "I feel",
-                enArabeezy: "ba7is",
-                hint: "Use with a feeling or with إِنِّي: بَحِسّ إِنِّي...",
-                exampleAr: "بَحِسّ إِنِّي مَضْغُوط هَالأُسْبُوع.",
-                exampleArabeezy: "ba7is inni maDghooT hal-osboo3.",
-                exampleEn: "I feel that I'm under pressure this week.",
-            },
+           
             {
                 id: "masha3er",
                 ar: "مَشَاعِر",
@@ -242,6 +234,16 @@ export const lesson = {
                 exampleEn: "I'm thinking of taking a rest day.",
             },
             {
+        id: "keef_ma3nawiyyaatak",
+        ar: "كِيف مَعْنَوِيَّاتَك؟",
+        en: "How is your morale / spirit?",
+        enArabeezy: "keef ma3nawiyyaatak?",
+        hint: "Female listener: كِيف مَعْنَوِيَّاتِك؟ (keef ma3nawiyyaatek?). Checks emotional resilience.",
+        exampleAr: "كِيف مَعْنَوِيَّاتَك بَعِد الأُسْبُوع المَضْغُوط هَادَا؟",
+        exampleArabeezy: "keef ma3nawiyyaatak ba3ed el-usboo3 el-maDghooT hada?",
+        exampleEn: "How is your morale after this stressful week?"
+    },
+            {
                 id: "sho_sayer",
                 ar: "شُو صَايِر مَعَك؟",
                 en: "what's going on with you?",
@@ -261,16 +263,16 @@ export const lesson = {
                 exampleArabeezy: "malik? inti za3lane?",
                 exampleEn: "What's wrong? Are you upset?",
             },
-            {
-                id: "mish_3ala_ba3di",
-                ar: "مِش عَلَى بَعْضِي",
-                en: "I'm not myself",
-                enArabeezy: "mish 3ala ba3Di",
-                hint: "Very natural. He is not himself = مِش عَلَى بَعْضُه.",
-                exampleAr: "مِن الصُّبُح وَأَنَا مِش عَلَى بَعْضِي.",
-                exampleArabeezy: "min eS-Subu7 w ana mish 3ala ba3Di.",
-                exampleEn: "Since the morning, I haven't been myself.",
-            },
+           {
+        id: "mish_3a_ba3Di",
+        ar: "مِش عَ بَعْضِي",
+        en: "Feeling off / Not feeling like myself",
+        enArabeezy: "mish 3a ba3Di",
+        hint: "Idiomatic Gazan phrase used when feeling unfocused or emotionally unstable.",
+        exampleAr: "حَاسِس حَالِي مِش عَ بَعْضِي اليَوْم، مِش عَارِف لِيش.",
+        exampleArabeezy: "7ases 7ali mish 3a ba3Di el-yom, mish 3aref leesh.",
+        exampleEn: "I feel like I'm off today, I don't know why."
+    },
             {
                 id: "ma_baddi_a7ki",
                 ar: "مَا بَدِّي أَحْكِي عَن هَالمَوْضُوع",
@@ -281,16 +283,16 @@ export const lesson = {
                 exampleArabeezy: "asfe, halla2 ma baddi a7ki 3an hal-mawDoo3.",
                 exampleEn: "Sorry, right now I don't want to talk about this topic.",
             },
-            {
-                id: "3adi",
-                ar: "عَادِي",
-                en: "it's okay / normal",
-                enArabeezy: "3adi",
-                hint: "Supportive phrase when someone apologizes or feels bad.",
-                exampleAr: "عَادِي، كُلِّنَا بِنْتَعَب أَحْيَانًا.",
-                exampleArabeezy: "3adi, kullina binta3ab a7yanan.",
-                exampleEn: "It's okay, we all get tired sometimes.",
-            },
+           {
+        id: "aghayyer_jaww",
+        ar: "أَغَيِّر جَوّ",
+        en: "Change scenery / Refresh my mind",
+        enArabeezy: "aghayyer jaww",
+        hint: "Essential Gazan activity for self-care and mental recovery.",
+        exampleAr: "بَدِّي أَمْشِي عَلَى البَحَر عَشَان أَغَيِّر جَوّ.",
+        exampleArabeezy: "baddi amshi 3ala el-ba7ar 3ashan aghayyer jaww.",
+        exampleEn: "I want to walk by the sea to refresh my mind."
+    },
             {
                 id: "Tabe3i",
                 ar: "طَبِيعِي",
@@ -601,12 +603,18 @@ export const lesson = {
         every: 5,
         items: [
             {
-                id: "feel_mc1",
-                type: "match",
-                prompt: "Review words 1-5: Match Arabic to English: مَضْغُوط / مَضْغُوطَة",
-                options: ["stressed / under pressure", "happy", "tired", "fed up"],
-                correct: "stressed / under pressure",
-            },
+  "id": "feel_mc1",
+  "type": "complete",
+  "prompt": "Complete the Arabic sentence for: I am bored of the same routine every day.\n___ مِن نَفْس الرُّوتِين كُلّ يَوم.",
+  "options": [
+    "زَهْقَان",
+    "مِتْحَمِّس",
+    "مَبْسُوط",
+    "مَشْغُول"
+  ],
+  "correct": "زَهْقَان"
+},
+            
             {
                 id: "feel_mc2",
                 type: "complete",
@@ -614,41 +622,105 @@ export const lesson = {
                 options: ["مُتَوَتِّر", "قَلْقَان", "مِرْتَاح", "مِتْحَمِّس"],
                 correct: "مُتَوَتِّر",
             },
+           
+{
+  "id": "feel_mc3",
+  "type": "complete",
+  "prompt": "Complete the Arabic sentence for: I am excited to start the course next month.\n___ أَبَلِّش الكُورْس الشَّهْر الجَاي.",
+  "options": [
+    "مِتْحَمِّس",
+    "تَعْبَان",
+    "زَعْلاَن",
+    "مَشْغُول"
+  ],
+  "correct": "مِتْحَمِّس"
+}
+            ,
+             {
+  "id": "feel_mc4",
+  "type": "reorder",
+  "prompt": "Reorder the Arabic words to match: I don't have the energy to walk a long distance today.",
+  "options": [
+    "اليَوْم",
+    "طَوِيلَة",
+    "مَا فِيش",
+    "أَمْشِي",
+    "حِيل",
+    "مَسَافَة"
+  ],
+  "correct": [
+    "مَا فِيش",
+    "حِيل",
+    "أَمْشِي",
+    "مَسَافَة",
+    "طَوِيلَة",
+    "اليَوْم"
+  ]
+},
             {
-                id: "feel_mc3",
-                type: "complete",
-                prompt: "Review words 11-15: Complete: If I have no energy, I need rest.\nإِذَا ___، أَنَا بِحَاجَة لِرَاحَة.",
-                options: ["فِش عِنْدِي طَاقَة", "مِش رَايِق", "مَزَاجِي مْنِيح", "مِش مُسْتَعِدّ"],
-                correct: "فِش عِنْدِي طَاقَة",
-            },
+  "id": "feel_mc5",
+  "type": "reorder",
+  "prompt": "Reorder the Arabic words to match: I don't need any noise today, my head hurts.",
+  "options": [
+    "رَاسِي",
+    "اليَوم",
+    "دَوْشَة",
+    "بْيُوجَعْنِي",
+    "مِش",
+    "نَاقِصْنِي"
+  ],
+  "correct": [
+    "مِش",
+    "نَاقِصْنِي",
+    "دَوْشَة",
+    "اليَوم",
+    "رَاسِي",
+    "بْيُوجَعْنِي"
+  ]
+},
             {
-                id: "feel_mc4",
-                type: "match",
-                prompt: "Review words 16-20: Choose the natural phrase for: I feel.",
-                options: ["بَحِسّ", "صَاحِي", "مِش نَاقِصْنِي", "ضَايِع"],
-                correct: "بَحِسّ",
-            },
+  "id": "feel_mc6",
+  "type": "complete",
+  "prompt": "Complete the Arabic sentence for: I feel out of sorts today, I don't know why.\nحَاسِس حَالِي ___ اليَوْم، مِش عَارِف لِيش.",
+  "options": [
+    "مِش عَ بَعْضِي",
+    "مَا فِيش حِيل",
+    "مِتْحَمِّس كْتِير",
+    "زَهْقَان كْتِير"
+  ],
+  "correct": "مِش عَ بَعْضِي"
+},
             {
-                id: "feel_mc5",
-                type: "match",
-                prompt: "Review words 21-25: Choose the natural phrase for: I don't want to talk about this topic.",
-                options: ["مَا بَدِّي أَحْكِي عَن هَالمَوْضُوع", "شُو صَايِر مَعَك؟", "مَالَك؟", "بَفَكِّر"],
-                correct: "مَا بَدِّي أَحْكِي عَن هَالمَوْضُوع",
-            },
-            {
-                id: "feel_mc6",
-                type: "reorder",
-                prompt: "Review words 26-30: Reorder: Don't worry, take care of yourself.",
-                options: ["وَلَا", "يِهِمَّك،", "دِير", "بَالَك", "عَلَى", "حَالَك."],
-                correct: ["وَلَا", "يِهِمَّك،", "دِير", "بَالَك", "عَلَى", "حَالَك."],
-            },
-            {
-                id: "feel_mc7",
-                type: "match",
-                prompt: "Review words 31-34: Match Arabic to English: طَمِّنِّي عَلَيْك",
-                options: ["let me know how you are", "take a break", "step by step", "I'm with you"],
-                correct: "let me know how you are",
-            },
+  "id": "feel_mc7",
+  "type": "reorder",
+  "prompt": "Reorder the Arabic words to match: It is normal to be nervous before the interview.",
+  "options": [
+    "المُقَابَلَة",
+    "تِكُون",
+    "قَبْل",
+    "طَبِيعِي",
+    "مُتَوَتِّر"
+  ],
+  "correct": [
+    "طَبِيعِي",
+    "تِكُون",
+    "مُتَوَتِّر",
+    "قَبْل",
+    "المُقَابَلَة"
+  ]
+},
+{
+  "id": "feel_mc8",
+  "type": "complete",
+  "prompt": "Complete the Arabic sentence for: You don't have to finish everything today, step by step.\nمِش لَازِم تِخَلِّص كُلّ إِشِي اليَوم، ___.",
+  "options": [
+    "شُوَيّ شُوَيّ",
+    "عَالصُّبُح",
+    "مِن الآخِر",
+    "عَالدَّرْس"
+  ],
+  "correct": "شُوَيّ شُوَيّ"
+},
         ],
     },
 

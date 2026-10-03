@@ -475,131 +475,7 @@ export const lesson = {
                 { prompt: "Which form addresses a group: ‘you all go’?", options: ["بِتْرُوحُوا", "بِرُوحُوا", "بِنْرُوح"], correct: "بِتْرُوحُوا", explanation: "إِنْتُو takes بِتْـ and the plural ending ـُوا." },
             ],
         },
-        {
-            title: "2. Negating a routine with مَا",
-            short: "مَا بَفْطَر — مَا بِتْأَخَّرُوا — مَا بَنَام بَكِّير",
-            description: "To negate an action in the everyday present, put مَا directly before the conjugated verb. Keep the person marking on the verb. مِش is normally used to negate descriptions, identities, and some planned or participle-like expressions; this unit’s routine actions use مَا as the safe core pattern.",
-            table: {
-                title: "Affirmative and negative routine",
-                headers: ["Affirmative", "Negative", "Meaning"],
-                rows: [
-                    ["بَفْطَر", "مَا بَفْطَر", "I eat / do not eat breakfast"],
-                    ["بِتْشْرَبِي قَهْوَة", "مَا بِتْشْرَبِي قَهْوَة", "you (f.) drink / do not drink coffee"],
-                    ["بِنَام بَكِّير", "مَا بَنَام بَكِّير", "he sleeps / does not sleep early"],
-                    ["بِتْأَخَّرُوا", "مَا بِتْأَخَّرُوا", "they are / are not late"],
-                ],
-            },
-            examples: [
-                { ar: "أَنَا مَا بَشْرَب قَهْوَة بِاللِّيل.", arabeezy: "ana ma bashrab qahweh bil-leil.", en: "I don’t drink coffee at night." },
-                { ar: "هِيَّ مَا بِتْرُوح عَالشُّغُل يَوم الجُمْعَة.", arabeezy: "hiyyeh ma bitroo7 3ash-shughul yom el-jum3a.", en: "She doesn’t go to work on Friday." },
-                { ar: "إِحْنَا مَا بِنْتْأَخَّر عَن الدَّرْس.", arabeezy: "i7na ma bnit2akhkhar 3an ed-dars.", en: "We aren’t late for class." },
-            ],
-            commonMistakes: [
-                "Do not remove بـ after مَا: say مَا بَرُوح, not مَا رُوح for a habitual present statement.",
-                "Do not use لَا as the default spoken negator for a personal routine. لَا appears in commands and fixed expressions; مَا is the core here.",
-                "Some Palestinian speakers add final ـش for emphasis or regional style. This course first stabilises the widely understood مَا + present verb pattern.",
-            ],
-            exercises: [
-                { prompt: "Make بَنَام بَكِّير negative.", options: ["مَا بَنَام بَكِّير.", "لَا بَنَام بَكِّير.", "مَا نَام بَكِّير."], correct: "مَا بَنَام بَكِّير.", explanation: "Place مَا before the complete present form بَنَام." },
-                { prompt: "Choose: ‘They do not study at night.’", options: ["هُمَّ مَا بِدْرُسُوا بِاللِّيل.", "هُمَّ مِش بِدْرُس بِاللِّيل.", "هُمَّ لَا دَرَسُوا بِاللِّيل."], correct: "هُمَّ مَا بِدْرُسُوا بِاللِّيل.", explanation: "The plural present remains بِدْرُسُوا after مَا." },
-                { prompt: "What is wrong with مَا رُوح عَالشُّغُل كُلّ يَوم?", options: ["The present verb is missing its بـ/person form.", "مَا can never negate a verb.", "عَ means the past."], correct: "The present verb is missing its بـ/person form.", explanation: "For ‘I don’t go’, use مَا بَرُوح." },
-            ],
-        },
-        {
-            title: "3. Asking and telling the time naturally",
-            short: "أَيّ سَاعَة؟ — السَّاعَة سَبْعَة — عَالسَّبْعَة",
-            description: "Palestinian Arabic commonly asks أَيّ سَاعَة؟ for a clock time and إِمْتَى؟ for a broader ‘when?’. Exact clock answers often use السَّاعَة + number. عَالسَّبْعَة means ‘around/at seven’ inside a plan or routine and can feel less like reading a clock.",
-            table: {
-                title: "Useful clock-time chunks",
-                headers: ["Arabic", "Arabizi", "Natural meaning", "Usage"],
-                rows: [
-                    ["أَيّ سَاعَة؟", "ay sa3a?", "what time?", "asks for clock time"],
-                    ["إِمْتَى؟", "eimta?", "when?", "asks for a day, period, or time"],
-                    ["السَّاعَة سَبْعَة", "es-sa3a sab3a", "at seven / it is seven", "exact answer"],
-                    ["عَالسَّبْعَة", "3as-sab3a", "at/around seven", "inside a routine or arrangement"],
-                    ["سَبْعَة وَنُصّ", "sab3a w noSS", "seven thirty", "half past seven"],
-                    ["سَبْعَة وَرُبُع", "sab3a w rubu3", "seven fifteen", "quarter past seven"],
-                    ["تَمَانْيَة إِلَّا رُبُع", "tamanye illa rubu3", "quarter to eight", "7:45"],
-                ],
-            },
-            examples: [
-                { ar: "أَيّ سَاعَة بِتْصْحَى؟ — السَّاعَة سِتَّة وَنُصّ.", arabeezy: "ay sa3a bitS7a? — es-sa3a sitteh w noSS.", en: "What time do you wake up? — At six thirty." },
-                { ar: "إِمْتَى بِتْرُوح عَالجَامْعَة؟ — بَعْد الفَطُور.", arabeezy: "eimta bitroo7 3al-jam3a? — ba3d el-faToor.", en: "When do you go to university? — After breakfast." },
-                { ar: "عَادَةً بَرْجَع عَالبِيت عَالخَمْسَة.", arabeezy: "3adatan barja3 3al-beit 3al-khamseh.", en: "I usually return home at five." },
-            ],
-            commonMistakes: [
-                "Do not translate English ‘at’ mechanically in every answer. السَّاعَة سَبْعَة is already a complete natural time answer.",
-                "أَيّ سَاعَة requests a clock time; إِمْتَى allows answers like بُكْرَة, بَعْد الفَطُور, or يَوم الجُمْعَة.",
-                "For 7:30, Palestinian speech says سَبْعَة وَنُصّ, not a literal ‘seven and thirty’.",
-            ],
-            exercises: [
-                { prompt: "You need an exact clock time. Which question is most precise?", options: ["أَيّ سَاعَة؟", "مِن وِين؟", "قَدِّيش مَرَّة؟"], correct: "أَيّ سَاعَة؟", explanation: "أَيّ سَاعَة asks specifically for the time on the clock." },
-                { prompt: "Choose 7:30.", options: ["سَبْعَة وَنُصّ", "سَبْعَة إِلَّا نُصّ", "تَمَانْيَة وَرُبُع"], correct: "سَبْعَة وَنُصّ", explanation: "وَنُصّ means ‘and a half’: half past seven." },
-                { prompt: "Which is a natural answer to إِمْتَى بِتْدْرُس؟", options: ["بَعْد العَشَا.", "السَّاعَة قَدِّيش؟", "مِن غَزَّة."], correct: "بَعْد العَشَا.", explanation: "إِمْتَى can be answered with a broad time phrase such as ‘after dinner’." },
-            ],
-        },
-        {
-            title: "4. Frequency words: how often a routine happens",
-            short: "دَايْمًا، عَادَةً، غَالِبًا، أَحْيَانًا، نَادِرًا",
-            description: "Frequency words let the student describe a real routine rather than a rigid list. They can appear before the verb or at the start of the sentence. Palestinian speakers also use chunks such as كُلّ يَوم, مَرَّتَيْن بِالأُسْبُوع, and مِن وَقْت لِوَقْت.",
-            table: {
-                title: "A practical frequency scale",
-                headers: ["Expression", "Arabizi", "Approximate meaning", "Example chunk"],
-                rows: [
-                    ["دَايْمًا", "dayman", "always", "دَايْمًا بَفْطَر"],
-                    ["عَادَةً", "3adatan", "usually", "عَادَةً بَصْحَى بَكِّير"],
-                    ["غَالِبًا", "ghaliban", "most of the time", "غَالِبًا بَرُوح مَاشِي"],
-                    ["أَحْيَانًا", "a7yanan", "sometimes", "أَحْيَانًا بَتْأَخَّر"],
-                    ["نَادِرًا", "nadiran", "rarely", "نَادِرًا بَشْرَب قَهْوَة"],
-                    ["وَلَا مَرَّة", "wala marra", "never / not once", "وَلَا مَرَّة بِتْأَخَّر"],
-                ],
-            },
-            examples: [
-                { ar: "عَادَةً بَفْطَر مَع أَهْلِي، بَس أَحْيَانًا مَا بَلْحَق.", arabeezy: "3adatan bafTar ma3 ahli, bas a7yanan ma bal7aq.", en: "I usually eat breakfast with my family, but sometimes I don’t have time." },
-                { ar: "هِيَّ غَالِبًا بِتْدْرُس بِالمَسَا.", arabeezy: "hiyyeh ghaliban bitdros bil-masa.", en: "She studies in the evening most of the time." },
-                { ar: "مَرَّتَيْن بِالأُسْبُوع بَنَضِّف البِيت.", arabeezy: "marratein bil-usboo3 banaDDif el-beit.", en: "I clean the house twice a week." },
-            ],
-            commonMistakes: [
-                "دَايْمًا is a strong claim. If the routine has exceptions, عَادَةً or غَالِبًا is often more accurate.",
-                "A frequency word does not replace person conjugation: هِيَّ أَحْيَانًا بِتْدْرُس, not هِيَّ أَحْيَانًا دَرَس.",
-                "وَلَا مَرَّة is already negative in meaning, but spoken sentence patterns vary. Learn complete chunks from real examples.",
-            ],
-            exercises: [
-                { prompt: "Choose the best word for a habit that happens on most days but not every day.", options: ["عَادَةً", "وَلَا مَرَّة", "دَايْمًا"], correct: "عَادَةً", explanation: "عَادَةً means ‘usually’ and allows exceptions." },
-                { prompt: "Complete: ___ بَقْرَا قَبْل مَا أَنَام، مِش كُلّ يَوم. (sometimes)", options: ["أَحْيَانًا", "دَايْمًا", "وَلَا مَرَّة"], correct: "أَحْيَانًا", explanation: "أَحْيَانًا matches an action that happens sometimes, not daily." },
-                { prompt: "Which phrase means ‘twice a week’?", options: ["مَرَّتَيْن بِالأُسْبُوع", "مَرَّة كُلّ يَوم", "أُسْبُوعَيْن"], correct: "مَرَّتَيْن بِالأُسْبُوع", explanation: "مَرَّتَيْن means twice; بِالأُسْبُوع means per week." },
-            ],
-        },
-        {
-            title: "5. Connecting the day with قَبْل مَا and بَعْد مَا",
-            short: "قَبْل مَا أَطْلَع — بَعْد مَا أَرْجَع",
-            description: "A natural routine is connected, not a list of isolated sentences. Use قَبْل مَا + verb for ‘before doing’ and بَعْد مَا + verb for ‘after doing’. The verb after مَا still agrees with the person. When the following item is a noun, مَا is not needed: بَعْد الفَطُور.",
-            table: {
-                title: "Verb connection versus noun time phrase",
-                headers: ["Structure", "Example", "Meaning"],
-                rows: [
-                    ["قَبْل مَا + verb", "قَبْل مَا أَطْلَع", "before I leave"],
-                    ["بَعْد مَا + verb", "بَعْد مَا أَرْجَع", "after I return"],
-                    ["قَبْل + noun", "قَبْل الشُّغُل", "before work"],
-                    ["بَعْد + noun", "بَعْد الفَطُور", "after breakfast"],
-                ],
-            },
-            examples: [
-                { ar: "قَبْل مَا أَطْلَع مِن البِيت، بَشْرَب قَهْوَة.", arabeezy: "qabel ma aTla3 min el-beit, bashrab qahweh.", en: "Before I leave home, I drink coffee." },
-                { ar: "بَعْد مَا بِرْجَع مِن الشُّغُل، بِرْتَاح شُوَيّ.", arabeezy: "ba3d ma birja3 min esh-shughul, birta7 shway.", en: "After he returns from work, he rests a little." },
-                { ar: "بَعْد العَشَا بَحْكِي مَع عِيلْتِي.", arabeezy: "ba3d el-3asha ba7ki ma3 3eelti.", en: "After dinner, I talk with my family." },
-            ],
-            commonMistakes: [
-                "Use مَا before a following verb: بَعْد مَا أَرْجَع. Do not insert it before a noun: بَعْد الفَطُور.",
-                "Conjugate the connected verb for its real subject: بَعْد مَا بِرْجَع (he), بَعْد مَا بِرْجَعُوا (they).",
-                "Do not copy English word order mechanically. Learn قَبْل مَا and بَعْد مَا as spoken connectors.",
-            ],
-            exercises: [
-                { prompt: "Choose: ‘after I return’.", options: ["بَعْد مَا أَرْجَع", "بَعْد أَنَا رَجَع", "بَعْد مِن أَرْجَع"], correct: "بَعْد مَا أَرْجَع", explanation: "The natural connector before a verb is بَعْد مَا." },
-                { prompt: "Complete: ___ الفَطُور بَرُوح عَالشُّغُل. (after breakfast)", options: ["بَعْد", "بَعْد مَا", "قَبْل مَا"], correct: "بَعْد", explanation: "الفَطُور is a noun, so use بَعْد without مَا." },
-                { prompt: "Choose the correct form for ‘before they sleep’.", options: ["قَبْل مَا يِنَامُوا", "قَبْل مَا يِنَام", "قَبْل هُمَّ نَام"], correct: "قَبْل مَا يِنَامُوا", explanation: "The verb after قَبْل مَا agrees with the plural subject through ـُوا." },
-            ],
-        },
+
     ],
 
     microChecks: {
@@ -661,8 +537,20 @@ export const lesson = {
                 ],
                 "correct": "بَقْرَا"
             },
-             {
+            {
                 "id": "daily_mc5",
+                "type": "complete",
+                "prompt": "Complete the Arabic sentence for: After lunch, I wash the dishes.\nبَعْد الغَدَا ___ الصُّحُون.",
+                "options": [
+                    "بَجْلِي",
+                    "بَاكُل",
+                    "بَاخُذ",
+                    "بَطْبَخ"
+                ],
+                "correct": "بَجْلِي"
+            },
+            {
+                "id": "daily_mc6",
                 "type": "choose",
                 "prompt": "Choose the Gaza Palestinian Arabic sentence for: Before I leave, I have breakfast.",
                 "options": [
@@ -673,31 +561,7 @@ export const lesson = {
                 ],
                 "correct": "قَبِل مَا أَنْزِل، بَفْطَر."
             },
-            {
-                "id": "daily_mc6",
-                "type": "complete",
-                "prompt": "Complete the Arabic sentence for: In the evening I read a book, and at night I sleep.\nبِالمَسَا بَقْرَا كِتَاب، وَبِاللِّيل ___.",
-                "options": [
-                    "بَنَام",
-                    "بَرُوح عَالدَّرْس",
-                    "بَشْرَب قَهْوَة",
-                    "بَنْزِل"
-                ],
-                "correct": "بَنَام"
-            },
-           
-            {
-                "id": "daily_mc7",
-                "type": "complete",
-                "prompt": "Complete the Arabic sentence for: After I return, I rest a little.\nبَعْد مَا بَرْجَع، ___ شُوَيّ.",
-                "options": [
-                    "بَرْتَاح",
-                    "بَصْحَى",
-                    "بَنْزِل",
-                    "بَتْحَمَّم"
-                ],
-                "correct": "بَرْتَاح"
-            }
+            
         ]
     },
 
@@ -1010,8 +874,9 @@ export const lesson = {
                         prompt: "Build: In the morning I have breakfast with my family.",
                         arabeezy: "el-soboh bafTar ma3 ahli.",
                         words: [
-                            "مَع أَهْلِي.",
+                            
                             "بَفْطَر",
+                            "مَع أَهْلِي.",
                             "الصُّبُح"
                         ],
                         answer: "الصُّبُح بَفْطَر مَع أَهْلِي."
@@ -1030,8 +895,9 @@ export const lesson = {
                         prompt: "Build: In the afternoon I return home and rest.",
                         arabeezy: "ba3d el-duhur barja3 3al-beit w barta7.",
                         words: [
-                            "وَبَرْتَاح.",
+                           
                             "بَرْجَع عَالبِيت",
+                             "وَبَرْتَاح.",
                             "بَعْد الضُّهُر"
                         ],
                         answer: "بَعْد الضُّهُر بَرْجَع عَالبِيت وَبَرْتَاح."
@@ -1050,7 +916,8 @@ export const lesson = {
                         arabeezy: "ba3d ma barja3, barta7 shway.",
                         words: [
                             "بَرْتَاح شُوَيّ.",
-                            "بَعْد مَا بَرْجَع"
+                            "بَرْجَع،",
+                            "بَعْد مَا "
                         ],
                         answer: "بَعْد مَا بَرْجَع، بَرْتَاح شُوَيّ."
                     }

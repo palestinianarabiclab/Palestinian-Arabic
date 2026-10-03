@@ -382,7 +382,7 @@ export const lesson = {
                 exampleArabeezy: "Sar 7adeth qareeb min el-jam3a.",
                 exampleEn: "There was an accident near the university.",
             },
-             {
+            {
                 id: "mumarred",
                 ar: "مُمَرِّض / مُمَرِّضَة",
                 en: "nurse",
@@ -442,7 +442,7 @@ export const lesson = {
                 exampleArabeezy: "3indi Daghet.",
                 exampleEn: "I have high blood pressure.",
             },
-           
+
         ],
     },
 
@@ -540,71 +540,7 @@ export const lesson = {
     },
 
     grammar: [
-        {
-            title: "1. Saying what hurts: body part + بوجع + person",
-            short: "رَاسِي بِيوْجَعْنِي — بَطْنِي بِتْوَجَّعْنِي",
-            description: "Palestinian Arabic often puts the painful body part first, with a possessive ending, then uses وَجَع with an attached person ending. The body part controls whether the verb sounds masculine or feminine: رَاسِي بِيوْجَعْنِي but إِجْرِي بِتْوَجَّعْنِي. The final ـنِي means that the pain affects ‘me’.",
-            table: {
-                title: "Body-part pain patterns",
-                headers: ["Body part", "Gender", "Natural sentence", "Meaning"],
-                rows: [
-                    ["رَاس (head)", "masculine", "رَاسِي بِيوْجَعْنِي", "my head hurts"],
-                    ["ظَهْر (back)", "masculine", "ظَهْرِي بِيوْجَعْنِي", "my back hurts"],
-                    ["بَطْن (stomach)", "often feminine in this chunk", "بَطْنِي بِتْوَجَّعْنِي", "my stomach hurts"],
-                    ["إِجْر (leg/foot)", "feminine", "إِجْرِي بِتْوَجَّعْنِي", "my leg/foot hurts"],
-                    ["عِين (eye)", "feminine", "عِينِي بِتْوَجَّعْنِي", "my eye hurts"],
-                    ["سِنّ (tooth)", "feminine in common use", "سِنِّي بِتْوَجَّعْنِي", "my tooth hurts"],
-                ],
-            },
-            examples: [
-                { ar: "مِن إِمْبَارِح رَاسِي بِيوْجَعْنِي وَعِنْدِي دُوخَة.", arabeezy: "min imbari7 rasi biywaja3ni w 3indi dokha.", en: "Since yesterday my head has hurt and I’ve been dizzy." },
-                { ar: "بَطْنِي بِتْوَجَّعْنِي بَعْد الأَكْل.", arabeezy: "baTni bitwajja3ni ba3d el-akel.", en: "My stomach hurts after eating." },
-                { ar: "وِين بِيوْجَعَك؟ — ظَهْرِي وَرَقَبْتِي.", arabeezy: "wein biywaja3ak? — Dahri w raqabti.", en: "Where does it hurt you? — My back and neck." },
-            ],
-            commonMistakes: [
-                "Do not translate word by word as أَنَا بِيوْجَع رَاس. The natural frame starts with the possessed body part: رَاسِي بِيوْجَعْنِي.",
-                "The verb may agree with the body part, while the attached ending identifies the person feeling pain. These are two different pieces of information.",
-                "Speakers vary between بِيوْجَعْنِي and بِوَجِّعْنِي-like pronunciations. Learn the clear local model and recognise variation.",
-            ],
-            exercises: [
-                { prompt: "Choose: ‘My head hurts.’", options: ["رَاسِي بِيوْجَعْنِي.", "أَنَا رَاس بِيوْجَع.", "رَاسَك بِتْوَجَّعْنِي."], correct: "رَاسِي بِيوْجَعْنِي.", explanation: "رَاسِي means my head; ـنِي marks me as the person affected." },
-                { prompt: "Complete the feminine body-part pattern: إِجْرِي ___.", options: ["بِتْوَجَّعْنِي", "بِيوْجَعْنِي هُوَّ", "بَوَجَع"], correct: "بِتْوَجَّعْنِي", explanation: "The feminine body part إِجْر commonly takes بِتْـ." },
-                { prompt: "What does the ending ـنِي communicate in بِيوْجَعْنِي?", options: ["me", "him", "them"], correct: "me", explanation: "The pain affects the speaker: me." },
-            ],
-        },
-        {
-            title: "2. Direct object endings in the clinic",
-            short: "فَحَصْنِي، سَأَلَك، شَافُه، وَصَفْهَا، سَاعَدْنَا",
-            description: "A direct object pronoun attaches to the verb instead of standing as a separate English-style ‘me/him/her’. The ending tells us who directly receives the action. The exact connecting vowel changes with the verb, so students should learn complete forms while recognising the recurring endings.",
-            table: {
-                title: "Core direct-object endings",
-                headers: ["Object", "Common ending", "Clinic example", "Meaning"],
-                rows: [
-                    ["me", "ـنِي", "الدُّكْتُور فَحَصْنِي", "the doctor examined me"],
-                    ["you, man", "ـَك", "الدُّكْتُور سَأَلَك", "the doctor asked you"],
-                    ["you, woman", "ـِك", "المُمَرِّضَة سَاعَدِتِك", "the nurse helped you"],
-                    ["him / it m.", "ـه / ـُه", "الدُّكْتُور شَافُه", "the doctor saw him/it"],
-                    ["her / it f.", "ـهَا", "الدُّكْتُور فَحَصْهَا", "the doctor examined her/it"],
-                    ["us", "ـنَا", "المُمَرِّض سَاعَدْنَا", "the nurse helped us"],
-                    ["them", "ـهُم", "الدُّكْتُور نَادَاهُم", "the doctor called them"],
-                ],
-            },
-            examples: [
-                { ar: "الدُّكْتُور فَحَصْنِي وَقَاسْلِي الحَرَارَة.", arabeezy: "ed-duktoor fa7aSni w qasli el-7arara.", en: "The doctor examined me and took my temperature." },
-                { ar: "هَاد الدَّوَا وَصَفُه الدُّكْتُور؟", arabeezy: "had ed-dawa waSafo ed-duktoor?", en: "Did the doctor prescribe this medicine?" },
-                { ar: "المُمَرِّضَة سَاعَدِتْهَا وَوَدَّتْهَا عَالغُرْفَة.", arabeezy: "el-mumarriDa sa3aditha w waddatha 3al-ghurfeh.", en: "The nurse helped her and took her to the room." },
-            ],
-            commonMistakes: [
-                "Do not repeat a full pronoun after an attached object: فَحَصْنِي already means ‘examined me’; adding أَنَا as the object is unnecessary.",
-                "ـه may refer to a male person or a masculine item such as الدَّوَا. Context identifies the referent.",
-                "These are direct objects. Forms such as حَكَالِي (‘he told me’) include an indirect-object idea and will be developed later.",
-            ],
-            exercises: [
-                { prompt: "Choose: ‘The doctor examined me.’", options: ["الدُّكْتُور فَحَصْنِي.", "الدُّكْتُور فَحَصْهَا.", "الدُّكْتُور فَحَصْنَا هُمَّ."], correct: "الدُّكْتُور فَحَصْنِي.", explanation: "The ending ـنِي means me." },
-                { prompt: "What does ـهَا mean in فَحَصْهَا?", options: ["her / a feminine object", "us", "you (man)"], correct: "her / a feminine object", explanation: "ـهَا refers to a feminine singular direct object." },
-                { prompt: "Complete: المُمَرِّض ___ عَالغُرْفَة. (helped us)", options: ["سَاعَدْنَا", "سَاعَدْنِي", "سَاعَدُه"], correct: "سَاعَدْنَا", explanation: "The ending ـنَا means us." },
-            ],
-        },
+
         {
             title: "3. Medical advice: command forms by listener",
             short: "خُد / خُدِي / خُدُوا — ارْتَاح / ارْتَاحِي / ارْتَاحُوا",
@@ -637,68 +573,7 @@ export const lesson = {
                 { prompt: "Which instruction is safest linguistically?", options: ["خُد الدَّوَا زَيّ مَا حَكَالَك الدُّكْتُور.", "خُد أَيّ كَمِّيَّة بَدَّك إِيَّاهَا.", "غَيِّر الجُرْعَة لَحَالَك."], correct: "خُد الدَّوَا زَيّ مَا حَكَالَك الدُّكْتُور.", explanation: "It tells the learner to follow the professional’s actual instruction rather than inventing one." },
             ],
         },
-        {
-            title: "4. Negative advice and urgent prohibition",
-            short: "لَا تَاكُل — مَا تِتْأَخَّرْش — مَمْنُوع تْسُوق",
-            description: "Health warnings vary in strength. لَا + second-person verb gives a clear negative command. مَا...ـش is strongly conversational in Gaza. مَمْنُوع + action presents a firm rule or safety restriction. The habitual بـ is removed from the prohibited action.",
-            table: {
-                title: "Three levels of negative instruction",
-                headers: ["Frame", "Example", "Typical force"],
-                rows: [
-                    ["لَا + verb", "لَا تَاكُل أَكْل تْقِيل", "clear advice: do not eat heavy food"],
-                    ["مَا...ـش", "مَا تِتْأَخَّرْش", "conversational warning: do not delay"],
-                    ["مَمْنُوع + verb", "مَمْنُوع تْسُوق", "firm restriction: driving is prohibited"],
-                    ["لَازِم مَا + verb", "لَازِم مَا تِهْمِل الوَجَع", "strong necessity not to ignore"],
-                ],
-            },
-            examples: [
-                { ar: "لَا تَاخُد الدَّوَا عَ مَعِدَة فَاضْيَة إِلَّا إِذَا الدُّكْتُور حَكَالَك.", arabeezy: "la takhod ed-dawa 3a mi3deh faDyeh illa iza ed-duktoor 7akalak.", en: "Don’t take the medicine on an empty stomach unless the doctor told you to." },
-                { ar: "إِذَا مَا قْدِرْت تِتْنَفَّس، مَا تِسْتَنَّاش.", arabeezy: "iza ma qdert titnaffas, ma tistannash.", en: "If you cannot breathe, do not wait." },
-                { ar: "بَعْد هَاد الدَّوَا مَمْنُوع تْسُوق إِذَا سَبَّبْلَك نُعَاس.", arabeezy: "ba3d had ed-dawa mamnoo3 tsoo2 iza sabbablak n3as.", en: "After this medicine, do not drive if it makes you drowsy." },
-            ],
-            commonMistakes: [
-                "Do not say لَا بِتَاخُد as a direct prohibition. Remove habitual بـ: لَا تَاخُد.",
-                "مَمْنُوع is stronger than ordinary advice and should be used for an actual restriction, not every preference.",
-                "In emergencies, clear short language matters more than politeness formulas. Call local emergency services or qualified help when needed.",
-            ],
-            exercises: [
-                { prompt: "Choose: ‘Don’t wait.’ in conversational Gaza Arabic.", options: ["مَا تِسْتَنَّاش.", "مِش اسْتَنَّى.", "لَا بِتِسْتَنَّى."], correct: "مَا تِسْتَنَّاش.", explanation: "The conversational negative command uses مَا...ـش." },
-                { prompt: "Correct: لَا بِتَاخُد هَاد الدَّوَا.", options: ["لَا تَاخُد هَاد الدَّوَا.", "لَا أَخَدْت هَاد الدَّوَا.", "مِش بِتَاخُد هَاد الدَّوَا؟"], correct: "لَا تَاخُد هَاد الدَّوَا.", explanation: "Remove habitual بـ after prohibitive لَا." },
-                { prompt: "Which frame communicates a firm restriction?", options: ["مَمْنُوع تْسُوق.", "أَحْسَن تِرْتَاح.", "مُمْكِن تِرْتَاح."], correct: "مَمْنُوع تْسُوق.", explanation: "مَمْنُوع presents the action as prohibited." },
-            ],
-        },
-        {
-            title: "5. Dosage language, frequency, and emergency conditions",
-            short: "حَبَّة مَرَّتَيْن — كُلّ تَمَان سَاعَات — إِذَا... فَوْرًا",
-            description: "Understanding an instruction requires amount, frequency, timing, and duration. Palestinian Arabic uses حَبَّة as a pill counter, مَرَّة/مَرَّتَيْن/تَلَات مَرَّات for frequency, كُلّ + time interval, and قَبْل/بَعْد الأَكْل. إِذَا introduces the condition that changes what the patient should do. These are language models, not personal medical directions.",
-            table: {
-                title: "Parts of a medicine instruction",
-                headers: ["Information", "Palestinian chunk", "Natural meaning"],
-                rows: [
-                    ["amount", "حَبَّة وَحْدَة", "one pill"],
-                    ["frequency", "مَرَّتَيْن بِاليَوم", "twice a day"],
-                    ["interval", "كُلّ تَمَان سَاعَات", "every eight hours"],
-                    ["meal timing", "بَعْد الأَكْل", "after food"],
-                    ["duration", "لِمُدَّة خَمْس أَيَّام", "for five days"],
-                    ["urgent condition", "إِذَا زَادَت الأَعْرَاض، فَوْرًا...", "if symptoms worsen, immediately..."],
-                ],
-            },
-            examples: [
-                { ar: "الصَّيْدَلِي حَكَى: حَبَّة مَرَّتَيْن بِاليَوم بَعْد الأَكْل.", arabeezy: "eS-Seidali 7aka: 7abbeh marratein bil-yom ba3d el-akel.", en: "The pharmacist said: one pill twice daily after food." },
-                { ar: "مَعْلِش، عِيدْلِي: كُلّ قَدِّيش سَاعَة؟ وَلِكَم يَوم؟", arabeezy: "ma3leish, 3eedli: kul addeish sa3a? w la-kam yom?", en: "Excuse me, repeat it: every how many hours, and for how many days?" },
-                { ar: "إِذَا مَا قْدِرْت تِتْنَفَّس مْنِيح، اتَّصِل بِالإِسْعَاف فَوْرًا.", arabeezy: "iza ma qdert titnaffas mnee7, ittaSil bil-is3af fawran.", en: "If you cannot breathe properly, call an ambulance immediately." },
-            ],
-            commonMistakes: [
-                "مَرَّتَيْن means twice, while كُلّ تَمَان سَاعَات specifies an interval. Do not assume they always describe the same schedule.",
-                "Repeat back the complete instruction. Knowing the number without knowing before/after food or duration is incomplete.",
-                "If an instruction is unclear, ask the pharmacist or doctor; do not calculate or change a dose from a language example.",
-            ],
-            exercises: [
-                { prompt: "What does مَرَّتَيْن بِاليَوم mean?", options: ["twice a day", "every two days", "two pills at once"], correct: "twice a day", explanation: "مَرَّتَيْن counts occasions; بِاليَوم gives the daily period." },
-                { prompt: "Which question clarifies an interval?", options: ["كُلّ قَدِّيش سَاعَة؟", "مِن وِين الدَّوَا؟", "شُو لَوْن العُلْبَة؟"], correct: "كُلّ قَدِّيش سَاعَة؟", explanation: "It asks how many hours separate one time from the next." },
-                { prompt: "Choose the urgent result: إِذَا مَا قْدِرْت تِتْنَفَّس مْنِيح، ___.", options: ["اتَّصِل بِالإِسْعَاف فَوْرًا", "اسْتَنَّى أُسْبُوع", "غَيِّر الجُرْعَة لَحَالَك"], correct: "اتَّصِل بِالإِسْعَاف فَوْرًا", explanation: "Difficulty breathing requires urgent professional help; the language uses فَوْرًا for immediately." },
-            ],
-        },
+
     ],
 
     microChecks: {
@@ -720,14 +595,26 @@ export const lesson = {
                 correct: "بِيْجَعْنِي",
             },
             {
-                id: "health_mc3",
+                "id": "health_mc3",
+                "type": "complete",
+                "prompt": "Complete the Arabic sentence for: I have a bad headache, I need coffee.\nأَنَا ___ كْتِير، بَدِّي قَهْوَة.",
+                "options": [
+                    "مْصَدِّع",
+                    "فَرْحَان",
+                    "شَغَّال",
+                    "تَعْبَان"
+                ],
+                "correct": "مْصَدِّع"
+            },
+            {
+                id: "health_mc4",
                 type: "choose",
                 prompt: "Choose the Gaza Palestinian Arabic word for: medicine.",
                 options: ["دَوَا", "مَغَص", "دُوخَة", "كُحَّة"],
                 correct: "دَوَا",
             },
             {
-                "id": "health_mc4",
+                "id": "health_mc5",
                 "type": "reorder",
                 "prompt": "Reorder the Arabic words to match: Help me, the man fell on the ground!",
                 "options": [
@@ -744,7 +631,7 @@ export const lesson = {
                 ]
             },
             {
-                "id": "health_mc5",
+                "id": "health_mc7",
                 "type": "complete",
                 "prompt": "Complete the Arabic sentence for: I have an appointment at the doctor's.\nعِنْدِي ___ عِنْد الدُّكْتُور.",
                 "options": [
@@ -756,8 +643,20 @@ export const lesson = {
                 "correct": "مَوْعِد"
             },
             { id: "health_mc6", type: "choose", prompt: "Choose the Gaza Palestinian Arabic word for: symptoms.", options: ["أَعْرَاض", "طَوَارِئ", "إِسْعَاف", "نَزِيف"], correct: "أَعْرَاض" },
-            { id: "health_mc7", type: "choose", prompt: "Choose the Gaza Palestinian Arabic word for: accident.", options: ["حَادِث", "جُرْح", "إِبْرَة", "مُرَاجَعَة"], correct: "حَادِث" },
-            { id: "health_mc8", type: "choose", prompt: "Choose the Gaza Palestinian Arabic word for: nurse.", options: ["مُمَرِّض / مُمَرِّضَة", "ضَغِط", "سُكَّر", "حَسَاسِيَّة"], correct: "مُمَرِّض / مُمَرِّضَة" },
+            {
+  "id": "health_mc7",
+  "type": "complete",
+  "prompt": "Complete the Arabic sentence for: Call the ambulance, the patient has passed out!\nاِتَّصِل بَالإِسْعَاف، المَرِيض ___!",
+  "options": [
+    "مِغْمَى عَلَيْه",
+    "زَاكِي كْتِير",
+    "عَالإِشَارَة",
+    "مْصَدِّع عَ الأَخِير"
+  ],
+  "correct": "مِغْمَى عَلَيْه"
+},
+            { id: "health_mc8", type: "choose", prompt: "Choose the Gaza Palestinian Arabic word for: accident.", options: ["حَادِث", "جُرْح", "إِبْرَة", "مُرَاجَعَة"], correct: "حَادِث" },
+            { id: "health_mc9", type: "choose", prompt: "Choose the Gaza Palestinian Arabic word for: nurse.", options: ["مُمَرِّض / مُمَرِّضَة", "ضَغِط", "سُكَّر", "حَسَاسِيَّة"], correct: "مُمَرِّض / مُمَرِّضَة" },
         ],
     },
 
@@ -865,12 +764,12 @@ export const lesson = {
                     { prompt: "Correct the negative command: لَا بِتَسْتَنَّى.", arabeezy: "la btistanna.", answer: "مَا تِسْتَنَّاش." },
                 ],
                 reorderSentences: [
-                    { prompt: "Build: My stomach hurts since morning.", arabeezy: "baTni biyja3ni min eS-Subu7.", words: [" بِيْجَعْنِي","بَطْنِي", "مِن الصُّبْح."], answer: "بَطْنِي بِيْجَعْنِي مِن الصُّبْح." },
-                    { prompt: "Build: Take one pill twice a day.", arabeezy: "khod 7abbeh marratein fil-yom.", words: [ "مَرَّتَيْن","خُد حَبَّة", "فِي اليَوم."], answer: "خُد حَبَّة مَرَّتَيْن فِي اليَوم." },
-                    { prompt: "Build: I have an allergy to medicine.", arabeezy: "3indi 7asasiyyeh min ed-dawa.", words: [" حَسَاسِيَّة","عِنْدِي", "مِن الدَّوَا."], answer: "عِنْدِي حَسَاسِيَّة مِن الدَّوَا." },
-                    { prompt: "Review future: Tomorrow I will go to the clinic.", arabeezy: "bukra ra7 aroo7 3al-3iyadeh.", words: ["عَالْعِيَادَة.","بُكْرَا", "رَاح أَرُوح", ], answer: "بُكْرَا رَاح أَرُوح عَالْعِيَادَة." },
-                    { prompt: "Build: If you cannot breathe, call an ambulance immediately.", arabeezy: "iza ma bti2dar titnaffas, ittaSil bil-is3af 3aTool.", words: ["اِتَّصِل بِالإِسْعَاف","إِذَا مَا بِتِقْدَر تِتْنَفَّس",  "عَطُول."], answer: "إِذَا مَا بِتِقْدَر تِتْنَفَّس اِتَّصِل بِالإِسْعَاف عَطُول." },
-                    { prompt: "Review: I want half a kilo of tomatoes.", arabeezy: "baddi noSS kilo bandora.", words: ["نُصّ كِيلُو","بَدِّي",  "بَنْدُورَة."], answer: "بَدِّي نُصّ كِيلُو بَنْدُورَة." },
+                    { prompt: "Build: My stomach hurts since morning.", arabeezy: "baTni biyja3ni min eS-Subu7.", words: ["بَطْنِي"," بِيْجَعْنِي",  "مِن الصُّبْح."], answer: "بَطْنِي بِيْجَعْنِي مِن الصُّبْح." },
+                    { prompt: "Build: Take one pill twice a day.", arabeezy: "khod 7abbeh marratein fil-yom.", words: ["مَرَّتَيْن", "خُد حَبَّة", "فِي اليَوم."], answer: "خُد حَبَّة مَرَّتَيْن فِي اليَوم." },
+                    { prompt: "Build: I have an allergy to medicine.", arabeezy: "3indi 7asasiyyeh min ed-dawa.", words: [" حَسَاسِيَّة", "عِنْدِي", "مِن الدَّوَا."], answer: "عِنْدِي حَسَاسِيَّة مِن الدَّوَا." },
+                    { prompt: "Review future: Tomorrow I will go to the clinic.", arabeezy: "bukra ra7 aroo7 3al-3iyadeh.", words: ["عَالْعِيَادَة.", "بُكْرَا", "رَاح أَرُوح",], answer: "بُكْرَا رَاح أَرُوح عَالْعِيَادَة." },
+                    { prompt: "Build: If you cannot breathe, call an ambulance immediately.", arabeezy: "iza ma bti2dar titnaffas, ittaSil bil-is3af 3aTool.", words: ["اِتَّصِل بِالإِسْعَاف", "إِذَا مَا بِتِقْدَر تِتْنَفَّس", "عَطُول."], answer: "إِذَا مَا بِتِقْدَر تِتْنَفَّس اِتَّصِل بِالإِسْعَاف عَطُول." },
+                    { prompt: "Review: I want half a kilo of tomatoes.", arabeezy: "baddi noSS kilo bandora.", words: ["نُصّ كِيلُو", "بَدِّي", "بَنْدُورَة."], answer: "بَدِّي نُصّ كِيلُو بَنْدُورَة." },
                 ],
             },
         ],
