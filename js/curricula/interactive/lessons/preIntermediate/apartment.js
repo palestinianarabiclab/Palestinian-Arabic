@@ -36,9 +36,9 @@ export const lesson = {
                 en: "apartment / flat",
                 enArabeezy: "sha2qa",
                 hint: "Plural: شُقَق. My apartment = شِقِّتِي. Use it for rented or owned flats.",
-                exampleAr: "الشَّقَّة قَرِيبَة مِن الجَامْعَة.",
-                exampleArabeezy: "esh-sha2qa qareebe min el-jam3a.",
-                exampleEn: "The apartment is near the university.",
+                "exampleAr": "بَدِّي أِشُوف الشَّقَّة، قَالُوا إِنَّهَا قَرِيبَة مِن الجَامْعَة وَالمَوَاصَلَات سَهْلَة.",
+  "exampleArabeezy": "baddi ishuuf el-shaqqa, qaaluu innaha qariibe min el-jaam‘a wel-muwaasalaat sahle.",
+  "exampleEn": "I want to see the apartment, they said it's close to the university and transportation is easy."
             },
             {
                 id: "3imara",
@@ -46,9 +46,9 @@ export const lesson = {
                 en: "building",
                 enArabeezy: "3imara / binaye",
                 hint: "Both are natural. Plural: عِمَارَات / بِنَايَات.",
-                exampleAr: "العِمَارَة هَادِي فِيهَا شُقَق فَاضْيَة؟",
-                exampleArabeezy: "el-3amara hadi feeha shuqaq faDya?",
-                exampleEn: "Does this building have empty apartments?"
+                "exampleAr": "هَادِي العِمَارَة شَكْلَهَا مْرَتَّب، بَس بَدِّي أَعْرَف إِذَا فِيهَا شُقَق فَاضْيَة.",
+  "exampleArabeezy": "hādi el-‘imāra shaklohā mratrab, bas baddi a‘raf iza fihā shuqaq fāḍye.",
+  "exampleEn": "This building looks neat, but I want to know if there are any empty apartments in it."
             },
             {
                 id: "tabaq",
@@ -56,9 +56,9 @@ export const lesson = {
                 en: "floor",
                 enArabeezy: "Tabaq",
                 hint: "Examples: أَوَّل طَابِق، تَانِي طَابِق، الطَّابِق التَّالِت. We say التالت because it means the third floor, not the number three alone.",
-                exampleAr: "الشَّقَّة عَالطَّابِق التَّالِت.",
-                exampleArabeezy: "esh-sha2qa 3aT-Tabaq et-talet.",
-                exampleEn: "The apartment is on the third floor.",
+                "exampleAr": "الشَّقَّة فِي الطَّابِق التَّالِت، وَفِي أَصَنْصِيل فِي العِمَارَة.",
+  "exampleArabeezy": "el-shaqqa fi el-ṭābiq el-tālit, w fi aṣanṣil fi el-‘imāra.",
+  "exampleEn": "The apartment is on the third floor, and there is an elevator in the building."
             },
             {
                 id: "kam_shaqqa",
@@ -66,9 +66,9 @@ export const lesson = {
                 en: "How many apartments are on the floor?",
                 enArabeezy: "kam sha2qa fi eT-Tabaq?",
                 hint: "Practical question when viewing a building.",
-                exampleAr: "لَوْ سَمَحْت، كَم شَقَّة فِي الطَّابِق؟",
-                exampleArabeezy: "law sama7t, kam sha2qa fi eT-Tabaq?",
-                exampleEn: "Excuse me, how many apartments are on the floor?",
+                "exampleAr": "لَوْ سَمَحْت، كَمْ شَقَّة فِي الطَّابِق؟ لِأَنِّي بِهِمِّنِي يَكُونَ المَكَان هَادِي.",
+  "exampleArabeezy": "law samaḥt, kam shaqqa fi el-ṭābiq? li'anni bihimminni yakūn el-makān hādi.",
+  "exampleEn": "Excuse me, how many apartments are on the floor? Because it matters to me that the place is quiet."
             },
             {
                 id: "ijar",
@@ -76,9 +76,9 @@ export const lesson = {
                 en: "rent",
                 enArabeezy: "ijar",
                 hint: "Monthly rent. Ask: قَدِّيش الإِيجَار بِالشَّهْر؟",
-                exampleAr: "قَدِّيش الإِيجَار بِالشَّهْر؟",
-                exampleArabeezy: "addeesh el-ijar bish-shahr?",
-                exampleEn: "How much is the rent per month?",
+                "exampleAr": "قَدِّيش الإِيجَار بِالشَّهْر؟ وَهَلْ السِّعْر شَامِل المَيّ وَالكَهْرَبَا؟",
+    "exampleArabeezy": "qaddīsh el-ījār bil-shahar? w hal el-si‘r shāmil el-mayy wel-kahrabā?",
+    "exampleEn": "How much is the rent per month? And is the price inclusive of water and electricity?"
             },
             {
                 id: "ta2meen",
@@ -86,9 +86,9 @@ export const lesson = {
                 en: "deposit",
                 enArabeezy: "ta2meen",
                 hint: "Money paid before renting. Different from health insurance.",
-                exampleAr: "الإِيجَار شَهْر، وَالتَّأْمِين شَهْر.",
-                exampleArabeezy: "el-ijar shahr, w et-ta2meen shahr.",
-                exampleEn: "The rent is one month, and the deposit is one month.",
+                "exampleAr": "صَاحِب البَيْت طَلَب تَأْمِين شَهْر، وَقَالَ إِنَّهُ بِرَجِّعُه لَمَّا نِطْلَع مِن الشَّقَّة.",
+    "exampleArabeezy": "ṣāḥib el-bayt ṭalab ta'mīn shahar, w qāl innahu birajji‘uh lammā niṭla‘ min el-shaqqa.",
+    "exampleEn": "The landlord asked for a month's deposit, and said he'll return it when we leave the apartment."
             },
             {
                 id: "aqd_ijar",
@@ -106,9 +106,9 @@ export const lesson = {
                 en: "landlord / owner",
                 enArabeezy: "sa7eb el-beit",
                 hint: "For a woman: صَاحْبِة البَيْت.",
-                exampleAr: "لَازِم أَحْكِي مَع صَاحِب البِيت عَشَان العَقِد.",
-                exampleArabeezy: "lazim a7ki ma3 Sa7ib el-beet 3ashan el-3aqed.",
-                exampleEn: "I need to speak with the landlord for the contract."
+                "exampleAr": "صَاحِب البَيْت قَالَ إِنَّهُ إِذَا صَار أَيُّ عُطْل فِي الشَّقَّة، أَحْكِي مَعَهُ مُبَاشَرَةً.",
+    "exampleArabeezy": "ṣāḥib el-bayt qāl innahu iza ṣār ayyu ‘uṭl fi el-shaqqa, aḥki ma‘uh mubāshara.",
+    "exampleEn": "The landlord said that if any breakdown happens in the apartment, I should talk to him directly."
             },
             {
                 id: "jar",
@@ -116,9 +116,9 @@ export const lesson = {
                 en: "neighbour",
                 enArabeezy: "jar / jara",
                 hint: "Plural: جِيرَان. Ask: كِيف الجِيرَان؟",
-                exampleAr: "جيرانّا طَيِّبين بَس صَوْتهم عالي أَحْيانا.",
-                exampleArabeezy: "jyrana tybyn bs swthm 3aly a7yana.",
-                exampleEn: "Our neighbors are nice but sometimes loud.",
+                "exampleAr": "جَارْتْنَا طَيِّبَة كْتِير، وَدَايْمًا إِذَا اِحْتَجْنَا إِشْي بِنِسْأَلْهَا.",
+    "exampleArabeezy": "jārtnā ṭayyibe ktīr, w dāymā iza iḥtajnā ishy binis'alhā.",
+    "exampleEn": "Our neighbor is very kind, and always if we need something we ask her."
             },
             {
                 id: "salon",
@@ -126,9 +126,9 @@ export const lesson = {
                 en: "living room",
                 enArabeezy: "salon",
                 hint: "Room for sitting with family or guests.",
-                exampleAr: "بِنِقْعُد بِالصّالون نِتْفَرَّج عَالتِّلْفِزْيون.",
-                exampleArabeezy: "bnq3d belsalwn ntfrj 3altlfzywn.",
-                exampleEn: "We sit in the living room and watch TV.",
+                "exampleAr": "الصَّالُون وَاسِع، وَبِنِقْدَر نِقْعُد فِيه مَع الضُّيُوف بِرَاحَة.",
+    "exampleArabeezy": "el-ṣālūn wāsi‘, w biniqdar niq‘ud fīh ma‘ el-ḍuyūf birāḥa.",
+    "exampleEn": "The salon is spacious, and we can sit in it with guests comfortably."
             },
             {
                 id: "ghurfet_nom",
@@ -136,9 +136,9 @@ export const lesson = {
                 en: "bedroom",
                 enArabeezy: "ghurfet nom",
                 hint: "Useful when counting rooms: غُرْفِة نَوم وَاحْدَة / غُرْفِتِين نَوم.",
-                exampleAr: "الشَّقَّة فِيهَا غُرْفِتِين نَوم وَصَالُون.",
-                exampleArabeezy: "esh-sha2qa feeha ghurfitain nom w salon.",
-                exampleEn: "The apartment has two bedrooms and a living room.",
+                "exampleAr": "الشَّقَّة فِيهَا غُرْفْتِين نَوْم، وَوَاحْدَة مِنْهِن عَلَى الشَّارِع.",
+    "exampleArabeezy": "el-shaqqa fīhā ghurftīn nawm, w wāḥde minhin ‘alā el-shāri‘.",
+    "exampleEn": "The apartment has two bedrooms, and one of them is on the street."
             },
             {
                 id: "matbakh",
@@ -146,9 +146,9 @@ export const lesson = {
                 en: "kitchen",
                 enArabeezy: "maTbakh",
                 hint: "Plural: مَطَابِخ.",
-                exampleAr: "مَطْبَخ الشِّقّة صْغير بَس مُرَتَّب.",
-                exampleArabeezy: "mtbkh elshqa sghyr bs mrtb.",
-                exampleEn: "The apartment’s kitchen is small but tidy.",
+               "exampleAr": "المَطْبَخ صْغَيَّر شُوَيّ، بَس فِيه مَكَان لِلثَّلَّاجَة وَالغَسَّالَة.",
+    "exampleArabeezy": "el-maṭbakh ṣghayyar shwayy, bas fih makān lil-thallāja wel-ghassāla.",
+    "exampleEn": "The kitchen is a bit small, but there is a place for the fridge and the washing machine."
             },
             {
                 id: "7ammam",
@@ -156,9 +156,9 @@ export const lesson = {
                 en: "bathroom",
                 enArabeezy: "7ammam",
                 hint: "Plural: حَمَّامَات.",
-                exampleAr: "فِيه حَمَّامِين فِي الشَّقَّة.",
-                exampleArabeezy: "fee 7ammameyn fish-sha22a.",
-                exampleEn: "There are two bathrooms in the apartment."
+                "exampleAr": "هَادَا الحَمَّام قَرِيب مِن غُرْفِة النَّوْم، وَفِيه حَمَّام تَانِي جَنْب الصَّالُون.",
+    "exampleArabeezy": "hādā el-ḥammām qarīb min ghurfit el-nawm, w fih ḥammām tāni janb el-ṣālūn.",
+    "exampleEn": "This bathroom is close to the bedroom, and there is another bathroom next to the salon."
             },
             {
                 id: "balkon_barande",
@@ -166,9 +166,9 @@ export const lesson = {
                 en: "balcony",
                 enArabeezy: "balkon / barande",
                 hint: "Both are used. Ask: البَرَنْدَة وِين بِتْطُلّ؟ = Where does the balcony look out?",
-                exampleAr: "البَلْكُونَة بْتُطُلّ عَ الشَّارِع.",
-                exampleArabeezy: "el-balkoneh btuTull 3ash-share3.",
-                exampleEn: "The balcony overlooks the street."
+                "exampleAr": "البَرَنْدَة بْتُطُلّ عَالشَّارِع، وَفِيهَا مَكَان حُلْو لِنِقْعُد فِيه بِاللَّيْل.",
+    "exampleArabeezy": "el-baranda btuṭull ‘al-shāri‘, w fīhā makān ḥulw liniq‘ud fīh bil-layl.",
+    "exampleEn": "The balcony overlooks the street, and it has a nice place to sit in at night."
             },
             {
                 id: "iTlala",
@@ -176,9 +176,9 @@ export const lesson = {
                 en: "view",
                 enArabeezy: "iTlala",
                 hint: "Common with balcony/roof: إِطْلَالَة عَالبَحْر / عَالشَّارِع.",
-                exampleAr: "إِطْلَالَة البَلَكُون حُلْوَة بِالمَسَا.",
-                exampleArabeezy: "iTlalet el-balkon 7ilwe bil-masa.",
-                exampleEn: "The balcony view is nice in the evening.",
+                "exampleAr": "أُخْتِي عَجْبَتْهَا الشَّقَّة، خَاصَّةً عَشَان إِطْلَالَتْهَا عَلَى البَحْر.",
+    "exampleArabeezy": "ukhti ‘ajbathā el-shaqqa, khāṣṣatan ‘ashān iṭlālatihā ‘alā el-baḥr.",
+    "exampleEn": "My sister liked the apartment, especially because of its view of the sea."
             },
             {
                 id: "saTe7",
@@ -186,9 +186,9 @@ export const lesson = {
                 en: "rooftop",
                 enArabeezy: "saTe7",
                 hint: "Common area for hanging clothes or placing water tanks.",
-                exampleAr: "بَدِّي أَطْلَع عَ السَّطِح أَشُوف خَزَّان المَيّ.",
-                exampleArabeezy: "baddi aTla3 3as-saTe7 ashoof khazzan el-mayy.",
-                exampleEn: "I want to go up to the roof to check the water tank."
+                "exampleAr": "السَّطِح فَوْق العِمَارَة، وَهُنَاك بِنِحُطّ برميل المَيّ وَبِنِشْر الغَسِيل.",
+    "exampleArabeezy": "el-saṭḥ fawq el-‘imāra, w hunāk biniḥuṭṭ khazzān el-mayy w binishr el-ghasīl.",
+    "exampleEn": "The roof is above the building, and there we put the water tank and hang the laundry.",
             },
 
             {
@@ -197,9 +197,9 @@ export const lesson = {
                 en: "elevator",
                 enArabeezy: "miṣʿad / asansēr",
                 hint: "Lift in the building.",
-                exampleAr: "الأَصَنْصِيل بْوِقَّف بِنُصّ الطّابِق أَحْيانًا.",
-                exampleArabeezy: "el-asansēr bwqf bns eltabq a7yana.",
-                exampleEn: "The elevator sometimes stops between floors.",
+                "exampleAr": "هُوَ سَاكِن بِالطَّابِق الخَامِس، فَبِسْأَل دَايْمًا إِذَا الأَصَنْصِيل شَغَّال.",
+    "exampleArabeezy": "huwwa sākin bil-ṭābiq el-khāmis, fa-bis'al dāymā iza el-aṣanṣil shaghghāl.",
+    "exampleEn": "He lives on the fifth floor, so he always asks if the elevator is working."
             },
             {
                 id: "daraj",
@@ -207,20 +207,11 @@ export const lesson = {
                 en: "stairs / staircase",
                 enArabeezy: "daraj / sillem",
                 hint: "دَرَج is stairs in general. سِلِّم is the building staircase.",
-                exampleAr: "الدَّرَج جَنْب الأَصَنْصِيل.",
-                exampleArabeezy: "ed-daraj janb el-asansēr.",
-                exampleEn: "The stairs are next to the elevator.",
+                "exampleAr": "لَمَّا الأَصَنْصِيل يِخْرَب، بِنِضْطَر نِطْلَع عَالدَّرَج كُلَّ الطَّرِيق.",
+    "exampleArabeezy": "lammā el-aṣanṣil yikhrab, biniḍṭar niṭla‘ ‘al-daraj kull el-ṭarīq.",
+    "exampleEn": "When the elevator breaks down, we have to go up the stairs all the way."
             },
-            {
-                id: "kahraba",
-                ar: "كَهْرَبَا",
-                en: "electricity",
-                enArabeezy: "kahraba",
-                hint: "Ask about cuts: الكَهْرَبَا بِتِقْطَع كْتِير؟",
-                exampleAr: "الكَهْرَبا بِتِنْقِطِع كْثير بِهالْمَنطِقَة.",
-                exampleArabeezy: "elkhrba btnqt3 kthyr bhalmntqa.",
-                exampleEn: "The electricity cuts off a lot in this area.",
-            },
+            
 
             {
                 id: "sakhan_mayy",
@@ -228,9 +219,9 @@ export const lesson = {
                 en: "water heater",
                 enArabeezy: "sakkhān mayy",
                 hint: "Heater for shower water.",
-                exampleAr: "السَّخّان مَش شَغّال، المَيّ بارْدِة.",
-                exampleArabeezy: "elskhan msh shghal, elmy barda.",
-                exampleEn: "The water heater is not working; the water is cold.",
+                "exampleAr": "السَّخَّان مِشْ شَغَّال مِن الصُّبْح، وَالمَيّ لِسَّا بَارْدَة.",
+    "exampleArabeezy": "el-sakhkhān mish shaghghāl min el-ṣubḥ, wel-mayy lissā bārde.",
+    "exampleEn": "The water heater hasn't been working since morning, and the water is still cold."
             },
             {
                 id: "7anafiye",
@@ -238,9 +229,9 @@ export const lesson = {
                 en: "tap / faucet",
                 enArabeezy: "7anafiye",
                 hint: "Plural: حَنَفِيَّات. It drips = بْتِنْقُط.",
-                exampleAr: "الحَنَفِيَّة فِي الحَمَّام.",
-                exampleArabeezy: "el-7anafiyye fil-7ammam.",
-                exampleEn: "The tap is in the bathroom.",
+                "exampleAr": "الحَنَفِيَّة بِالحَمَّام بْتِنْقُط، وَمَيّ كْتِير بْتِنْزَل عَالأَرْض.",
+    "exampleArabeezy": "el-ḥanafiyye bil-ḥammām btinquṭ, w mayy ktīr btinzal ‘al-arḍ.",
+    "exampleEn": "The faucet in the bathroom is dripping, and a lot of water is getting down on the floor."
             },
             {
                 id: "masoora",
@@ -248,9 +239,9 @@ export const lesson = {
                 en: "pipe",
                 enArabeezy: "masoora",
                 hint: "Plural: مَوَاسِير. Common with plumbers and leaks. Use location words: تَحْت المَغْسَلَة، وَرَا الحِيطَة.",
-                exampleAr: "المَاسُورَة فِي الحَمَّام.",
-                exampleArabeezy: "el-masoora fil-7ammam.",
-                exampleEn: "The pipe is in the bathroom.",
+                "exampleAr": "الفَنِّي قَالَ إِنَّهُ المَاسُورَة تَحْت المَغْسَلَة مكسورة، وَلَازِم تِتْغَيَّر.",
+    "exampleArabeezy": "el-fanni qāl innahu el-māsūra taḥt el-maghsala mashqūqe, w lāzim titghayyar.",
+    "exampleEn": "The technician said that the pipe under the sink is cracked, and it needs to be changed."
             },
             {
                 id: "maghsale",
@@ -258,29 +249,20 @@ export const lesson = {
                 en: "sink",
                 enArabeezy: "maghsale",
                 hint: "Bathroom or kitchen sink. Plural: مَغَاسِل.",
-                exampleAr: "المَغْسَلَة فِي المَطْبَخ.",
-                exampleArabeezy: "el-maghsale fil-maTbakh.",
-                exampleEn: "The sink is in the kitchen.",
+               "exampleAr": "المَغْسَلَة فِي المَطْبَخ مَسْدُودَة، فَمَا بِنِقْدَر نِغْسِل الصحون.",
+    "exampleArabeezy": "el-maghsala fi el-maṭbakh masdūde, fa-mā biniqdar nighsil el-mawā‘īn.",
+    "exampleEn": "The sink in the kitchen is blocked, so we can't wash the dishes."
             },
-            {
-                id: "masdood",
-                ar: "مَسْدُود / مَسْدُودَة",
-                en: "blocked / clogged",
-                enArabeezy: "masdood / masdoode",
-                hint: "Male: مَسْدُود. Female: مَسْدُودَة.",
-                exampleAr: "المَغْسَلَة مَسْدُودَة.",
-                exampleArabeezy: "el-maghsale masdoode.",
-                exampleEn: "The sink is blocked.",
-            },
+            
             {
                 id: "binqoT",
                 ar: "بْيِنْقُط / بْتِنْقُط",
                 en: "it drips / leaks",
                 enArabeezy: "binqoT / bitinqoT",
                 hint: "For taps, pipes, roofs, or ceilings.",
-                exampleAr: "الحَنَفِيَّة بْتِنْقُط.",
-                exampleArabeezy: "el-7anafiyye bitinqoT.",
-                exampleEn: "The tap is dripping.",
+                "exampleAr": "سَقْف الحَمَّام بْيِنْقُط لَمَّا تِشْتِي، وَالدَّهَان بَدَا يِخْرَب.",
+    "exampleArabeezy": "saqf el-ḥammām byinquṭ lammā tishti, wel-dahān badā yikhrab.",
+    "exampleEn": "The bathroom ceiling drips when it rains, and the paint has started to ruin."
             },
             {
                 id: "maksur",
@@ -288,9 +270,9 @@ export const lesson = {
                 en: "broken",
                 enArabeezy: "maksūr / maksour",
                 hint: "Physically broken (glass, door, window).",
-                exampleAr: "الشُّبّاك مَكْسور .",
-                exampleArabeezy: "elshbak mkswr.",
-                exampleEn: "The window is broken ",
+                "exampleAr": "الشُّبَّاك مَكْسُور مِن مُدَّة، وَصَاحِب البَيْت قَالَ إِنَّهُ رَاحْ يِجِيب حَدَّ يِصَلِّحُه.",
+    "exampleArabeezy": "el-shubbāk maksūr min mudde, w ṣāḥib el-bayt qāl innahu rāḥ yijīb ḥadd yiṣalliḥuh.",
+    "exampleEn": "The window has been broken for a while, and the landlord said he'll bring someone to fix it."
             },
             {
                 id: "kharban",
@@ -302,16 +284,25 @@ export const lesson = {
                 exampleArabeezy: "elasansyr khrban mn asbw3.",
                 exampleEn: "The elevator has been out of order for a week.",
             },
-
+{
+                id: "fanni",
+                ar: "فَنِّي",
+                en: "technician",
+                enArabeezy: "fanni",
+                hint: "General repair person. Plural: فَنِّيِين.",
+                "exampleAr": "الفَنِّي إِجَا الصُّبْح وَفَحَص الأَصَنْصِيل، وَقَالَ إِنَّهُ بَدُّهْ قِطْعَة جَدِيدَة.",
+    "exampleArabeezy": "el-fanni ijā el-ṣubḥ w faḥaṣ el-aṣanṣil, w qāl innahu baddu qiṭ‘a jadīde.",
+    "exampleEn": "The technician came in the morning and inspected the elevator, and said it needs a new part."
+            },
             {
                 id: "salle7",
                 ar: "صَلَّح / بَدُّه تَصْلِيح",
                 en: "fixed / it needs repair",
                 enArabeezy: "Salla7 / biddo taSli7",
                 hint: "Question: صَلَّحْتُه؟ Answer: لِسَّا نَفْس المُشْكِلَة / هَلِّق أَحْسَن.",
-                exampleAr: "السَّخَّان بَدُّه تَصْلِيح.",
-                exampleArabeezy: "es-sakhkhan biddo taSli7.",
-                exampleEn: "The heater needs repair.",
+                "exampleAr": "حَكَيْنَا مَعَ صَاحِب البَيْت، وَقَالَ إِنَّهُ رَاحْ يِجِيب الفَنِّي اليَوْم عَشَانْ يِصَلِّح السَّخَّان.",
+    "exampleArabeezy": "ḥakaynā ma‘ ṣāḥib el-bayt, w qāl innahu rāḥ yijīb el-fanni el-yawm ‘ashān yiṣalliḥ el-sakhkhān.",
+    "exampleEn": "We talked with the landlord, and he said he'll bring the technician today to fix the water heater."
             },
             {
                 id: "sabbak",
@@ -323,25 +314,16 @@ export const lesson = {
                 exampleArabeezy: "lazim njeeb sabbak ySalli7 el-7ammam.",
                 exampleEn: "We need to get a plumber to fix the bathroom."
             },
-            {
-                id: "fanni",
-                ar: "فَنِّي",
-                en: "technician",
-                enArabeezy: "fanni",
-                hint: "General repair person. Plural: فَنِّيِين.",
-                exampleAr: "الفَنِّي فِي العِمَارَة.",
-                exampleArabeezy: "el-fanni fil-3imara.",
-                exampleEn: "The technician is in the building.",
-            },
+            
             {
                 id: "doshe",
                 ar: "دَوْشَة / ضَجَّة",
                 en: "noise",
                 enArabeezy: "doshe / Dajje",
                 hint: "دَوْشَة is very natural. Polite: فِيك تِخَفِّف الصَّوْت شُوَي؟",
-                exampleAr: "فِي دَوْشَة بِالعِمَارَة.",
-                exampleArabeezy: "fi doshe bil-3imara.",
-                exampleEn: "There is noise in the building.",
+                "exampleAr": "الجِيرَان فَوْقَنَا بيقْعُدُوا لِوَقْت مُتَأَخِّر، وَبِتْصِير دَوْشَة كْتِير بِاللَّيْل.",
+    "exampleArabeezy": "el-jīrān fawqanā biniq‘udū liwaqt muta'akhkhir, w bitsīr dawsha ktīr bil-layl.",
+    "exampleEn": "The neighbors above us stay sitting late, and there gets to be a lot of noise at night."
             },
             {
                 id: "rutube",
@@ -349,9 +331,9 @@ export const lesson = {
                 en: "humidity / dampness",
                 enArabeezy: "ruToobe",
                 hint: "Common in Gaza apartments, especially on walls after winter.",
-                exampleAr: "فِي رُطُوبَة بِالشَّقَّة.",
-                exampleArabeezy: "fi ruToobe bish-sha2qa.",
-                exampleEn: "There is dampness in the apartment.",
+                "exampleAr": "فِي رُطُوبَة بِالحِيطَة وَرَا الخِزَانَة، وَالدَّهَان بَدَا يِتْقَشَّر.",
+    "exampleArabeezy": "fi ruṭūba bil-ḥīṭa warā el-khizāna, wel-dahān badā yitqashshar.",
+    "exampleEn": "There is dampness on the wall behind the wardrobe, and the paint has started peeling."
             },
             {
                 id: "mushkile",
@@ -359,9 +341,9 @@ export const lesson = {
                 en: "I have a problem / I want to talk about a problem",
                 enArabeezy: "3indi mushkile / baddi a7ki 3an mushkile",
                 hint: "Polite repair opening. Add: مَعْلِيش عَالإِزْعَاج، مُمْكِن تِشُوفْهَا؟",
-                exampleAr: "لَوْ سَمَحْت، بَدِّي أَحْكِي عَن مُشْكِلِة فِي الشَّقَّة.",
-                exampleArabeezy: "law sama7t, baddi a7ki 3an mushkile fi esh-sha2qa.",
-                exampleEn: "Excuse me, I want to talk about a problem in the apartment.",
+                "exampleAr": "لَوْ سَمَحْت، عِنْدِي مُشْكِلَة بِالشَّقَّة وَبَدِّي أَحْكِي مَعَك عَنْهَا.",
+    "exampleArabeezy": "law samaḥt, ‘indi mushkile bil-shaqqa w baddi aḥki ma‘ak ‘anhā.",
+    "exampleEn": "Excuse me, I have a problem with the apartment and I want to talk to you about it."
             },
             {
                 id: "mumkin_tsa3idni",

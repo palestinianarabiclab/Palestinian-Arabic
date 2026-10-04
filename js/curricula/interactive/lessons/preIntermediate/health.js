@@ -37,9 +37,9 @@ export const lesson = {
                 enArabeezy: "ṣiḥḥa / se77a",
                 hint:
                     "General word for health. صِحّة كْوَيْسِة = good health. Also used in toast: صَحّة! = cheers / to your health.",
-                exampleAr: "الصِّحّة أَهَمّ إِشي بِالحَياة.",
-                exampleArabeezy: "els7a ahm ishy bel7yaa.",
-                exampleEn: "Health is the most important thing in life.",
+                "exampleAr": "الصِّحَّة أَهَمّ إِشْي، عَشَان هَيْك لَمَّا أَتْعَب بَرُوح عَالدُّكْتُور وَمَا بَسْتَنَّى كْتِير.",
+    "exampleArabeezy": "el-ṣiḥḥa ahamm ishy, ‘ashān heyk lammā at‘ab barūḥ ‘al-duktūr w mā bastannā ktīr.",
+    "exampleEn": "Health is the most important thing, that's why when I get tired I go to the doctor and don't wait long."
             },
             {
                 id: "salamtak",
@@ -47,9 +47,9 @@ export const lesson = {
                 en: "Get well soon / I hope you feel better",
                 enArabeezy: "salamtak",
                 hint: "Male: سَلَامْتَك. Female: سَلَامْتِك. Plural: سَلَامِتْكُم. Used whenever someone is sick or hurt.",
-                exampleAr: "سَلَامْتَك يَا غَالِي، مَا تْشُوف شَرّ.",
-                exampleArabeezy: "salamtak ya ghali, ma tshoof sharr.",
-                exampleEn: "Get well soon my dear, hope you see no harm."
+                "exampleAr": "سَلَامْتَك، سَمِعْت إِنَّك كُنْت تَعْبَان اِمْبَارِح. هَلْقِيت أَحْسَن؟",
+    "exampleArabeezy": "salāmtak, sami‘t innak kunt ta‘bān imbāriḥ. halqīt aḥsan?",
+    "exampleEn": "Safety/well-being to you, I heard you were tired yesterday. Are you feeling better now?"
             },
             {
                 id: "sho_malak",
@@ -57,20 +57,11 @@ export const lesson = {
                 en: "What's wrong?",
                 enArabeezy: "sho malak?",
                 hint: "To a woman: شُو مَالِك؟ To a group: شُو مَالْكُم؟",
-                exampleAr: "شُو مَالَك اليَوم؟",
-                exampleArabeezy: "sho malak el-yom?",
-                exampleEn: "What's wrong today?",
+                "exampleAr": "شُو مَالَك؟ وَجْهَك تَعْبَان مِن الصُّبْح.",
+    "exampleArabeezy": "shu mālak? wajhak ta‘bān min el-ṣubḥ.",
+    "exampleEn": "What's wrong with you? Your face looks tired since morning."
             },
-            {
-                id: "ta3ban",
-                ar: "تَعْبَان / تَعْبَانَة",
-                en: "tired / unwell",
-                enArabeezy: "ta3ban / ta3bane",
-                hint: "Male: تَعْبَان. Female: تَعْبَانَة. Group: تَعْبَانِين.",
-                exampleAr: "أَنَا تَعْبَانَة مِن اِمْبَارِح.",
-                exampleArabeezy: "ana ta3bane min embare7.",
-                exampleEn: "I have been unwell since yesterday.",
-            },
+           
             {
                 id: "ba7es_7ali",
                 ar: "بَحِسّ حَالِي",
@@ -87,9 +78,9 @@ export const lesson = {
                 en: "pain / ache",
                 enArabeezy: "waja3",
                 hint: "General pain word: وَجَع رَاس، وَجَع بَطِن، وَجَع ضَهْر.",
-                exampleAr: "عِنْدِي وَجَع مِن الصُّبْح.",
-                exampleArabeezy: "3indi waja3 min eS-Sub7.",
-                exampleEn: "I have had pain since the morning.",
+                "exampleAr": "عِنْدِي وَجَع بِبَطْنِي مِن بَعْد الغَدَا، وَمَا عَرَفْت أَنَام مِنُّه.",
+    "exampleArabeezy": "‘indi waj_a bibatni min ba‘d el-ghadā, w mā ‘araft anām minnuh.",
+    "exampleEn": "I have a pain in my stomach since after lunch, and I couldn't sleep because of it."
             },
             {
                 id: "biyja3ni_body_parts",
@@ -108,9 +99,19 @@ export const lesson = {
                 en: "fever",
                 enArabeezy: "ḥarāra / sukhūna",
                 hint: "High temperature. عِنْدي حَرارَة = I have a fever.",
-                exampleAr: "حاسِس في حَرارَة، جِسْمي سُخن.",
-                exampleArabeezy: "7ass fy 7rara, jsmy skhn.",
-                exampleEn: "I feel feverish, my body is hot.",
+                "exampleAr": "هِيَّ عِنْدَهَا حَرَارَة مِن اللَّيْل، وَجِسْمَهَا سُخْن كْتِير.",
+    "exampleArabeezy": "hiyya ‘indahā ḥarāra min el-layl, w jismahā sukhn ktīr.",
+    "exampleEn": "She has had a fever since night, and her body is very warm/hot."
+            },
+             {
+                id: "ku7a",
+                ar: "كحَّة",
+                en: "cough",
+                enArabeezy: "ku77a",
+                hint: "Verb: بَكُحّ = I cough.",
+                "exampleAr": "عِنْدَهَا كحَّة مِن يَوْمَيْن، وَاللَّيْل بِتْزِيد عَلَيْهَا.",
+    "exampleArabeezy": "‘indahā kuḥḥa min yawmayn, wel-layl bitzīd ‘alaihā.",
+    "exampleEn": "She has had a cough for two days, and at night it gets worse for her."
             },
             {
                 id: "bard_health",
@@ -118,9 +119,9 @@ export const lesson = {
                 en: "a cold",
                 enArabeezy: "bard / nazlet bard",
                 hint: "Not weather here. It means catching a cold.",
-                exampleAr: "مَعِي نَزْلَة بَرْد مِن اِمْبَارِح.",
-                exampleArabeezy: "ma3i nazlet bard min embare7.",
-                exampleEn: "I have had a cold since yesterday.",
+                "exampleAr": "أَبُوي مَعُه نَزْلَة بَرْد، فَمِن مُبَارْح وَهُوَ بيسْعَل .",
+    "exampleArabeezy": "abūy ma‘uh nazlat bard, fa-min mubāriḥ w huwwa bis‘al ",
+    "exampleEn": "My dad has a cold, so since yesterday he has been coughing "
             },
             {
                 id: "rash7",
@@ -128,9 +129,9 @@ export const lesson = {
                 en: "runny nose / cold symptoms",
                 enArabeezy: "rash7",
                 hint: "Common with cold. Also: أَنْفِي مَسْكِر = my nose is blocked.",
-                exampleAr: "عِنْدِي رَشْح مِن اِمْبَارِح.",
-                exampleArabeezy: "3indi rash7 min embare7.",
-                exampleEn: "I have had a runny nose since yesterday.",
+                "exampleAr": "عِنْدِي رَشْح وَأَنْفِي مَسَكَّر، فَمَا بَقْدَر أَنَام مْنِيح.",
+    "exampleArabeezy": "‘indi rshaḥ w anfi masakkar, fa-mā baqdar anām mniḥ.",
+    "exampleEn": "I have a runny nose and my nose is stuffed, so I can't sleep well."
             },
             {
                 id: "mSaddi3",
@@ -138,29 +139,20 @@ export const lesson = {
                 en: "Having a headache",
                 enArabeezy: "mSaddi3",
                 hint: "An active participle used as an adjective. Female: مْصَدْعَة.",
-                exampleAr: "أَنَا مْصَدِّع كْتِير، بَدِّي قَهْوَة.",
-                exampleArabeezy: "ana mSaddi3 kteer, baddi ahwe.",
-                exampleEn: "I have a bad headache, I need coffee."
+                "exampleAr": "أَنَا مْصَدِّع اليَوْم، فَمَا بَدِّي أَطْلَع مَعَكُمْ اللَّيْلَة.",
+    "exampleArabeezy": "ana mṣaddi‘ el-yawm, fa-mā baddi aṭla‘ ma‘akum el-layle.",
+    "exampleEn": "I have a headache today, so I don't want to go out with you tonight."
             },
-            {
-                id: "ku7a",
-                ar: "كُحَّة",
-                en: "cough",
-                enArabeezy: "ku77a",
-                hint: "Verb: بَكُحّ = I cough.",
-                exampleAr: "عِنْدِي كُحَّة مِن الصُّبْح.",
-                exampleArabeezy: "3indi ku77a min eS-Sub7.",
-                exampleEn: "I have had a cough since the morning.",
-            },
+           
             {
                 id: "dayekh",
                 ar: "دَايِخ",
                 en: "Dizzy",
                 enArabeezy: "dayekh",
                 hint: "Female: دَايْخَة. Noun is دُوخَة (dizziness).",
-                exampleAr: "حَاسِس حَالِي دَايِخ، بَدِّي أَقْعُد.",
-                exampleArabeezy: "7ases 7ali dayekh, baddi a23ud.",
-                exampleEn: "I feel dizzy, I need to sit down."
+                "exampleAr": "هُوَ دَايِخ مِن الصُّبْح، فَخَلِّيه يِقْعُد شُوَيّ وَمَا يِطْلَع لِحَالُه.",
+    "exampleArabeezy": "huwwa dāyikh min el-ṣubḥ, fa-khallih yiq‘ud shwayy w mā yiṭla‘ liḥāluh.",
+    "exampleEn": "He has been dizzy since morning, so let him sit down a bit and not go out by himself."
             },
             {
                 id: "magheS",
@@ -168,9 +160,9 @@ export const lesson = {
                 en: "Stomach ache / cramps",
                 enArabeezy: "magheS",
                 hint: "Used for stomach cramps or abdominal pain.",
-                exampleAr: "عِنْدِي مَغِص، يِمْكِن أَخَذْت بَرْد.",
-                exampleArabeezy: "3indi magheS, yimkin akhathit bard.",
-                exampleEn: "I have a stomach ache, maybe I caught a cold."
+                "exampleAr": "أُخْتِي عِنْدَهَا مَغِص مِن اِمْبَارِح، وَقَالَتْ إِنَّهُ بَطْنَهَا بِيْجَعْهَا بَعْد الأَكْل.",
+    "exampleArabeezy": "ukhti ‘indahā maghiṣ min imbāriḥ, w qālat innahu baṭnahā byij‘ahā ba‘d el-akl.",
+    "exampleEn": "My sister has had cramps since yesterday, and she said her stomach hurts her after eating."
             },
             {
                 id: "dawa",
@@ -178,9 +170,9 @@ export const lesson = {
                 en: "medicine",
                 enArabeezy: "dawa",
                 hint: "General word. Plural: أَدْوِيَة.",
-                exampleAr: "بَدِّي دَوَا لِلْكُحَّة.",
-                exampleArabeezy: "baddi dawa lil-ku77a.",
-                exampleEn: "I want medicine for the cough.",
+                "exampleAr": "بَدِّي أَرُوح عَالصَّيْدَلِيَّة أَجِيب دَوَا لِلكحَّة.",
+    "exampleArabeezy": "baddi arūḥ ‘al-ṣaydaliyya ajīb dawā lil-kuḥḥa.",
+    "exampleEn": "I want to go to the pharmacy to get medicine for the cough."
             },
             {
                 id: "7abbe",
@@ -188,9 +180,9 @@ export const lesson = {
                 en: "pill / tablet",
                 enArabeezy: "7abbe",
                 hint: "One pill. Plural: حَبَّات.",
-                exampleAr: "مَعِي حَبَّة دَوَا.",
-                exampleArabeezy: "ma3i 7abbet dawa.",
-                exampleEn: "I have a pill of medicine.",
+                "exampleAr": "الصَّيْدَلَانِي قَالَ لَهُ ياخُد حَبَّة بَعْد الأَكْل، وَمَا يِزِيد عَن الجُرْعَة المَكْتُوبَة.",
+    "exampleArabeezy": "el-ṣaydalāni qāl lahu yikhud ḥabba ba‘d el-akl, w mā yizīd ‘an el-jur‘a el-maktūbe.",
+    "exampleEn": "The pharmacist told him to take a pill after eating, and not to exceed the written dosage."
             },
             {
                 id: "musakkin",
@@ -198,9 +190,9 @@ export const lesson = {
                 en: "painkiller",
                 enArabeezy: "musakkin",
                 hint: "Medicine to reduce pain.",
-                exampleAr: "بَدِّي مُسَكِّن لِوَجَع الرَّاس.",
-                exampleArabeezy: "baddi musakkin li-waja3 er-ras.",
-                exampleEn: "I want a painkiller for the headache.",
+                "exampleAr": "عِنْدِي وَجَع رَاس كْتِير، بَسْ بَدِّي أَسْأَل الصَّيْدَلَانِي إِذَا فِي مُسَكِّن مُنَاسِب.",
+    "exampleArabeezy": "‘indi waj_a rās ktīr, bas baddi as'al el-ṣaydalāni iza fi musakkin munāsib.",
+    "exampleEn": "I have a lot of headache, but I want to ask the pharmacist if there is a suitable painkiller."
             },
             {
                 id: "il7aqooni",
@@ -213,34 +205,14 @@ export const lesson = {
                 exampleEn: "Help! The man fell on the ground!"
             },
             {
-                id: "saydaliyye",
-                ar: "صَيْدَلِيَّة",
-                en: "pharmacy",
-                enArabeezy: "Saydaliyye",
-                hint: "Place to buy medicine. Plural: صَيْدَلِيَّات.",
-                exampleAr: "فِي صَيْدَلِيَّة قَرِيب مِن البَيْت.",
-                exampleArabeezy: "fi Saydaliyye qareeb min el-beit.",
-                exampleEn: "There is a pharmacy near the house.",
-            },
-            {
-                id: "3iyade",
-                ar: "عِيَادَة",
-                en: "clinic",
-                enArabeezy: "3iyade",
-                hint: "Smaller than hospital. Doctor's clinic.",
-                exampleAr: "عِنْدِي مَوْعِد بِالعِيَادَة السَّاعَة أَرْبَعَة.",
-                exampleArabeezy: "3indi maw3id bil-3iyade es-sa3a arba3a.",
-                exampleEn: "I have an appointment at the clinic at four.",
-            },
-            {
                 id: "doktor",
                 ar: "دُكْتُور / دُكْتُورَة",
                 en: "doctor",
                 enArabeezy: "doktor / doktora",
                 hint: "Male: دُكْتُور. Female: دُكْتُورَة.",
-                exampleAr: "الدُّكْتُور فِي العِيَادَة.",
-                exampleArabeezy: "ed-doktor fil-3iyade.",
-                exampleEn: "The doctor is at the clinic.",
+                "exampleAr": "أُخْتِي رَاحِت عَالدُّكْتُورَة لَمَّا ضَلَّت الكُحَّة مَعَهَا أَكْتَر مِن أُسْبُوع.",
+    "exampleArabeezy": "ukhti rāḥit ‘al-duktūra lammā ḍallat el-kuḥḥa ma‘ahā aktar min usbū‘.",
+    "exampleEn": "My sister went to the female doctor when the cough stayed with her for more than a week."
             },
             {
                 id: "maw3id",
@@ -248,19 +220,40 @@ export const lesson = {
                 en: "appointment",
                 enArabeezy: "maw3id",
                 hint: "Medical appointment or general appointment.",
-                exampleAr: "عِنْدِي مَوْعِد عِنْد الدُّكْتُور.",
-                exampleArabeezy: "3indi maw3id 3ind ed-doktor.",
-                exampleEn: "I have an appointment with the doctor.",
+               "exampleAr": "عِنْدِي مَوْعِد عِنْد الدُّكْتُور السَّاعَة خَمْسَة، فَلَازِم أَطْلَع مِن البَيْت بَدْرِي.",
+    "exampleArabeezy": "‘indi maw‘id ‘ind el-duktūr el-sā‘a khamse, fa-lāzim aṭla‘ min el-bayt badri.",
+    "exampleEn": "I have an appointment at the doctor's at five o'clock, so I must leave the house early."
             },
+            {
+                id: "saydaliyye",
+                ar: "صَيْدَلِيَّة",
+                en: "pharmacy",
+                enArabeezy: "Saydaliyye",
+                hint: "Place to buy medicine. Plural: صَيْدَلِيَّات.",
+               "exampleAr": "فِي صَيْدَلِيَّة قَرِيبَة مِن البَيْت، بِنِقْدَر نِرُوح عَلَيْهَا مَشْي.",
+    "exampleArabeezy": "fi ṣaydaliyya qarīibe min el-bayt, biniqdar nirūḥ ‘alaihā mashy.",
+    "exampleEn": "There's a pharmacy close to the house, we can walk to it."
+            },
+            {
+                id: "3iyade",
+                ar: "عِيَادَة",
+                en: "clinic",
+                enArabeezy: "3iyade",
+                hint: "Smaller than hospital. Doctor's clinic.",
+                "exampleAr": "عِنْدَهَا مَوْعِد بِالعِيَادَة بُكْرَا، عَشَان الدُّكْتُور يِشُوف إِذَا الحَرَارَة نِزْلَت.",
+    "exampleArabeezy": "‘indahā maw‘id bil-‘iyāda bukrā, ‘ashān el-duktūr yishūf iza el-ḥarāra nizlat.",
+    "exampleEn": "She has an appointment at the clinic tomorrow, so the doctor can see if the fever has gone down."
+            },
+            
             {
                 id: "ba7taj",
                 ar: "بَحْتَاج",
                 en: "I need",
                 enArabeezy: "ba7taj",
                 hint: "Useful chunk: بَحْتَاج دَوَا / دُكْتُور / رَاحَة.",
-                exampleAr: "بَحْتَاج دَوَا.",
-                exampleArabeezy: "ba7taj dawa.",
-                exampleEn: "I need medicine.",
+                "exampleAr": "بَحْتَاج أَرْتَاح اليَوْم، لِأَنِّي مِن مُبَارْح وَأَنَا تَعْبَان.",
+    "exampleArabeezy": "baḥtāj artāḥ el-yawm, li'anni min mubāriḥ w ana ta‘bān.",
+    "exampleEn": "I need to rest today, because since yesterday I've been tired."
             },
             {
                 id: "ra7a",
@@ -268,9 +261,9 @@ export const lesson = {
                 en: "rest",
                 enArabeezy: "ra7a",
                 hint: "Common advice: خُد رَاحَة / لَازِم تِرْتَاح.",
-                exampleAr: "بَحْتَاج رَاحَة اليَوم.",
-                exampleArabeezy: "ba7taj ra7a el-yom.",
-                exampleEn: "I need rest today.",
+                "exampleAr": "الدُّكْتُور قَالَ لَهَا تِشْرَب مَيّ كْتِير وَتَاخُد رَاحَة لِكَمْ يَوْم.",
+    "exampleArabeezy": "el-duktūr qāl lahā tishrab mayy ktīr w tākhud rāḥa likam yawm.",
+    "exampleEn": "The doctor told her to drink a lot of water and take rest for a few days."
             },
             {
                 id: "marten",
@@ -278,49 +271,19 @@ export const lesson = {
                 en: "twice",
                 enArabeezy: "marten",
                 hint: "Frequency. Once = مَرَّة. Three times = تَلَات مَرَّات.",
-                exampleAr: "بَشُوف الدُّكْتُور مَرَّتَيْن.",
-                exampleArabeezy: "bashoof ed-doktor marten.",
-                exampleEn: "I see the doctor twice.",
+                "exampleAr": "الدُّكْتُور قَالَ إِنَّهُ لَازِم يِقِيس الضَّغِط مَرَّتَيْن اليَوْم وَيِسَجِّل القِيَاس.",
+    "exampleArabeezy": "el-duktūr qāl innahu lāzim yiqīs el-daghiṭ marratayn el-yawm w yisajjil el-qiyās.",
+    "exampleEn": "The doctor said that he must measure the blood pressure twice today and record the reading."
             },
-            {
-                id: "mustashfa",
-                ar: "مُسْتَشْفَى",
-                en: "hospital",
-                enArabeezy: "mustashfa",
-                hint: "For serious cases and emergencies.",
-                exampleAr: "المُسْتَشْفَى قَرِيب مِن العِيَادَة.",
-                exampleArabeezy: "el-mustashfa qareeb min el-3iyade.",
-                exampleEn: "The hospital is near the clinic.",
-            },
-            {
-                id: "is3af",
-                ar: "إِسْعَاف",
-                en: "ambulance / emergency aid",
-                enArabeezy: "is3af",
-                hint: "Call an ambulance = اِتَّصِل بِالإِسْعَاف.",
-                exampleAr: "الإِسْعَاف عِنْد المُسْتَشْفَى.",
-                exampleArabeezy: "el-is3af 3ind el-mustashfa.",
-                exampleEn: "The ambulance is at the hospital.",
-            },
-            {
-                id: "qism_taware2",
-                ar: "قِسْم طَوارِئ",
-                en: "emergency room",
-                enArabeezy: "ʾism ṭawāreʾ / qism tawāre2",
-                hint: "Emergency department in a hospital.",
-                exampleAr: "وَدّوه عَـقِسْم طَوارِئ بَسِرْعَة.",
-                exampleArabeezy: "wdwh 3qsm twary bsr3a.",
-                exampleEn: "They took him quickly to the emergency room.",
-            },
-            {
-                id: "a3rad",
-                ar: "أَعْرَاض",
-                en: "symptoms",
-                enArabeezy: "a3raD",
-                hint: "Signs of sickness: fever, cough, dizziness, pain.",
-                exampleAr: "عِنْدِي أَعْرَاض مِن اِمْبَارِح.",
-                exampleArabeezy: "3indi a3raD min embare7.",
-                exampleEn: "I have had symptoms since yesterday.",
+             {
+                id: "7adeth",
+                ar: "حَادِث",
+                en: "accident",
+                enArabeezy: "7adeth",
+                hint: "Usually a traffic accident, but can be any accident.",
+                "exampleAr": "صَار حَادِث عَالشَّارِع الرَّئِيسِي، فَصَار فِي زَحْمَة كْتِير.",
+    "exampleArabeezy": "ṣār ḥādith ‘al-shāri‘ el-raʾīsi, fa-ṣār fi zaḥma ktīr.",
+    "exampleEn": "An accident happened on the main street, so there became a lot of traffic congestion."
             },
             {
                 id: "nazeef",
@@ -328,19 +291,60 @@ export const lesson = {
                 en: "bleeding",
                 enArabeezy: "nazeef",
                 hint: "Use for active bleeding. Verb: بِنْزِف.",
-                exampleAr: "فِي نَزِيف.",
-                exampleArabeezy: "fi nazeef.",
-                exampleEn: "There is bleeding.",
+                exampleAr: "صَار فِي نَزِيف بَعْد الضَّرْبَة.",
+                exampleArabeezy: "Sar fi nazeef ba3d eD-Darba.",
+                exampleEn: "There was bleeding after the hit."
             },
+            {
+                id: "mustashfa",
+                ar: "مُسْتَشْفَى",
+                en: "hospital",
+                enArabeezy: "mustashfa",
+                hint: "For serious cases and emergencies.",
+                "exampleAr": "لَمَّا صار الحَادِث، أَخَدُوا الزلمة عَالمُسْتَشْفَى عَشَانْ يِفْحَصُوه.",
+    "exampleArabeezy": "lammā ṣār el-ḥādith, akhadū el-rajul ‘al-mustashfā ‘ashān yifḥaṣūh.",
+    "exampleEn": "When the accident happened, they took the man to the hospital so they could examine him."
+            },
+            {
+                id: "is3af",
+                ar: "إِسْعَاف",
+                en: "ambulance / emergency aid",
+                enArabeezy: "is3af",
+                hint: "Call an ambulance = اِتَّصِل بِالإِسْعَاف.",
+                "exampleAr": "لَمَّا صَار الحَادِث، حَدّ اتَّصَل بِالإِسْعَاف وَطَلَب مِنْهُمْ يِجُوا بِسُرْعَة.",
+    "exampleArabeezy": "lammā ṣār el-ḥādith, ḥadd itṣal bil-is‘āf w ṭalab minhum yijū bisur‘a.",
+    "exampleEn": "When the accident happened, someone called the ambulance and asked them to come quickly."
+            },
+            {
+                id: "qism_taware2",
+                ar: "قِسْم طَوارِئ",
+                en: "emergency room",
+                enArabeezy: "ʾism ṭawāreʾ / qism tawāre2",
+                hint: "Emergency department in a hospital.",
+                "exampleAr": "وَدُّوه عَـقِسْم الطَّوَارِئ لَمَّا وَصَل عَالمُسْتَشْفَى، لِأَنَّه كَان بينزف.",
+    "exampleArabeezy": "waddūh ‘a-ʿism el-ṭawāri’ lammā waṣal ‘al-mustashfā, li’annah kān biyinzif.",
+    "exampleEn": "They took him to the emergency department when he arrived at the hospital, because he was bleeding."
+            },
+            {
+                id: "a3rad",
+                ar: "أَعْرَاض",
+                en: "symptoms",
+                enArabeezy: "a3raD",
+                hint: "Signs of sickness: fever, cough, dizziness, pain.",
+                "exampleAr": "قَبْل مَا أَرُوح عَالدُّكْتُور، كَتَبْت كُل الأَعْرَاض اللِّي عِنْدِي مِن مُبَارْح.",
+    "exampleArabeezy": "qabl mā arūḥ ‘al-duktūr, katabt kull el-a‘rāḍ elli ‘indi min mubāriḥ.",
+    "exampleEn": "Before I go to the doctor, I wrote down all the symptoms I've had since yesterday."
+            },
+            
             {
                 id: "mighma_3aleih",
                 ar: "مِغْمَى عَلَيْه",
                 en: "unconscious / fainted",
                 enArabeezy: "mighma 3aleih",
                 hint: "For a woman: مِغْمَى عَلَيْهَا.",
-                exampleAr: "هُوَّ مِغْمَى عَلَيْه.",
-                exampleArabeezy: "huwwe mighma 3aleih.",
-                exampleEn: "He is unconscious.",
+                "exampleAr": "لَمَّا وَصَلْنَا، كَان هُوَّ مِغْمَى عَلَيْه، فَطَلَبْنَا الإِسْعَاف فَوْرًا.",
+    "exampleArabeezy": "lammā waṣalnā, kān huwwa mighmā ‘alayh, fa-ṭalabnā el-is‘āf fawran.",
+    "exampleEn": "When we arrived, he was fainted/unconscious, so we requested the ambulance immediately."
             },
             {
                 id: "moraja3a",
@@ -348,9 +352,9 @@ export const lesson = {
                 en: "follow-up visit",
                 enArabeezy: "moraja3a",
                 hint: "Medical follow-up after seeing a doctor.",
-                exampleAr: "عِنْدِي مُرَاجَعَة بَعْد أُسْبُوع.",
-                exampleArabeezy: "3indi moraja3a ba3d osboo3.",
-                exampleEn: "I have a follow-up after one week.",
+                "exampleAr": "الدُّكْتُور طَلَب مِنْهَا تِرْجَع بَعْد أُسْبُوع عَشَان المُرَاجَعَة.",
+    "exampleArabeezy": "el-duktūr ṭalab minhā tirja‘ ba‘d usbū‘ ‘ashān el-murāja‘a.",
+    "exampleEn": "The doctor asked her to return after a week for the follow-up checkup."
             },
             {
                 id: "jur7",
@@ -358,9 +362,9 @@ export const lesson = {
                 en: "wound / cut",
                 enArabeezy: "jur7",
                 hint: "Plural: جُرُوح. Used for cuts and injuries.",
-                exampleAr: "عِنْدِي جُرْح صْغِير.",
-                exampleArabeezy: "3indi jur7 Sgheer.",
-                exampleEn: "I have a small wound.",
+                "exampleAr": "الوَلَد عِنْدُه جُرْح صْغِير بِإِيدُه، فَغَسَلْنَاه وَغَطَّيْنَاه.",
+    "exampleArabeezy": "el-walad ‘induh jurḥ ṣghīr bi-īduh, fa-ghasalnāh w ghaṭṭaynāh.",
+    "exampleEn": "The boy has a small wound on his hand, so we washed it and covered it."
             },
             {
                 id: "ibra",
@@ -368,29 +372,19 @@ export const lesson = {
                 en: "injection / shot",
                 enArabeezy: "ibra",
                 hint: "A medical shot. Plural: إِبَر.",
-                exampleAr: "عِنْدِي مَوْعِد عَشَان إِبْرَة.",
-                exampleArabeezy: "3indi maw3id 3ashan ibra.",
-                exampleEn: "I have an appointment for an injection.",
-            },
-            {
-                id: "7adeth",
-                ar: "حَادِث",
-                en: "accident",
-                enArabeezy: "7adeth",
-                hint: "Usually a traffic accident, but can be any accident.",
-                exampleAr: "صَار حَادِث قَرِيب مِن الجَامْعَة.",
-                exampleArabeezy: "Sar 7adeth qareeb min el-jam3a.",
-                exampleEn: "There was an accident near the university.",
-            },
+               "exampleAr": "هِيَّ عِنْدَهَا مَوْعِد بُكْرَا عَشَان تَاخُد إِبْرَة عِنْد الدُّكْتُور.",
+    "exampleArabeezy": "hiyya ‘indahā maw‘id bukrā ‘ashān tākhud ibra ‘ind el-duktūr.",
+    "exampleEn": "She has an appointment tomorrow to take an injection/needle at the doctor's."    },
+           
             {
                 id: "mumarred",
                 ar: "مُمَرِّض / مُمَرِّضَة",
                 en: "nurse",
                 enArabeezy: "mumarrid / mumarrDa",
                 hint: "Male: مُمَرِّض. Female: مُمَرِّضَة.",
-                exampleAr: "المُمَرِّضَة فِي العِيَادَة.",
-                exampleArabeezy: "el-mumarrDa fil-3iyade.",
-                exampleEn: "The nurse is at the clinic.",
+                "exampleAr": "المُمَرِّضَة سَأَلَتْه عَنْ أَعْرَاضِهِ وَقَاسَتْ لَهُ الحَرَارَة.",
+    "exampleArabeezy": "el-mumarrida sa'altahu ‘an a‘rāḍihi w qāsat lahu el-ḥarāra.",
+    "exampleEn": "The nurse asked him about his symptoms and measured his temperature."
             },
             {
                 id: "ta2meen_se77i",
@@ -398,9 +392,9 @@ export const lesson = {
                 en: "health insurance",
                 enArabeezy: "ta2meen Se77i",
                 hint: "Insurance that covers clinic/hospital costs.",
-                exampleAr: "عِنْدِي تَأْمِين صِحِّي.",
-                exampleArabeezy: "3indi ta2meen Se77i.",
-                exampleEn: "I have health insurance.",
+               "exampleAr": "هُوَ عِنْدُه تَأْمِين صِحِّي، فَقَبْل مَا يِرُوح عَالعِيَادَة سَأَل إِذَا التَّأْمِين بِغَطِّي الفَحْص.",
+    "exampleArabeezy": "huwwa ‘induh taʾmīn ṣiḥḥi, fa-qabl mā yirūḥ ‘al-‘iyāda sa'al iza el-taʾmīn ighaṭṭi el-faḥṣ.",
+    "exampleEn": "He has health insurance, so before going to the clinic he asked if the insurance covers the examination."
             },
             {
                 id: "ma_ba2dar_atnaffas",
@@ -408,9 +402,9 @@ export const lesson = {
                 en: "I cannot breathe well",
                 enArabeezy: "ma ba2dar atnaffas mnee7",
                 hint: "Emergency sentence. Use clearly and directly.",
-                exampleAr: "مَا بَقْدَر أَتْنَفَّس مْنِيح هَلْقِيت.",
-                exampleArabeezy: "ma ba2dar atnaffas mnee7 halla2et.",
-                exampleEn: "I cannot breathe well right now.",
+                "exampleAr": "مَا بَقْدَر أَتْنَفَّس مْنِيح، وَصَدْرِي بِيْوْجَعْنِي. إِلْحَقُونِي وَاتَّصِلُوا بِالإِسْعَاف.",
+    "exampleArabeezy": "mā baqdar atnaffas mniḥ, w ṣadri byiwj‘anni. ilḥaqūni w itṣallū bil-is‘āf.",
+    "exampleEn": "I can't breathe well, and my chest hurts me. Help me and call the ambulance."
             },
             {
                 id: "7asaseyye",
@@ -418,9 +412,9 @@ export const lesson = {
                 en: "allergy",
                 enArabeezy: "7asaseyye",
                 hint: "Allergy to food, medicine, dust, etc.",
-                exampleAr: "عِنْدِي حَسَاسِيَّة مِن دَوَا.",
-                exampleArabeezy: "3indi 7asaseyye min dawa.",
-                exampleEn: "I have an allergy to a medicine.",
+                "exampleAr": "أُخْتِي عِنْدَهَا حَسَاسِيَّة مِن بَعْض الأَدْوِيَة، عَشَان هَيْك دَايْمًا بتحكي لدُّكْتُور قَبْل مَا تَاخُد اي دَوَا.",
+    "exampleArabeezy": "ukhti ‘indahā ḥasāsiyya min ba‘D el-adwiyye, ‘ashān hayk dāyman btiḥki li-duktūr qabl mā tākhud ay dawā.",
+    "exampleEn": "My sister has an allergy to some medications, that's why she always informs the doctor before taking medicine."
             },
             {
                 id: "sukkar",
@@ -428,9 +422,9 @@ export const lesson = {
                 en: "diabetes / sugar level",
                 enArabeezy: "sukkar",
                 hint: "Useful recognition word. In speech: مَعُه سُكَّر = he has diabetes.",
-                exampleAr: "سِيدِي مَعُه سُكَّر.",
-                exampleArabeezy: "sidi ma3o sukkar.",
-                exampleEn: "My grandfather has diabetes.",
+               "exampleAr": "جَدِّي مَعُه سُكَّر، فَبِقِيس مُسْتَوَى السُّكَّر عِنْدُه بِشَكْل مُنْتَظَم.",
+    "exampleArabeezy": "jaddi ma‘uh sukkar, fa-biqīs mustawā el-sukkar ‘induh bishakl muntazam.",
+    "exampleEn": "My grandfather has diabetes, so he measures his sugar level regularly."
             },
             {
                 id: "daghet",
@@ -438,9 +432,9 @@ export const lesson = {
                 en: "blood pressure",
                 enArabeezy: "Daghet",
                 hint: "High blood pressure = الضَّغِط عَالِي. Low = الضَّغِط نَازِل.",
-                exampleAr: "عِنْدِي ضَغِط.",
-                exampleArabeezy: "3indi Daghet.",
-                exampleEn: "I have high blood pressure.",
+                "exampleAr": "أُمِّي عِنْدَهَا ضَغِط، وَلَمَّا بْتِحِسّ بِدُوخَة بْتِقِيسُه فِي البَيْت.",
+    "exampleArabeezy": "ummi ‘indahā daghiṭ, w lammā btihiss bidūkha btiqīsuh fi el-bayt.",
+    "exampleEn": "My mother has blood pressure, and when she feels dizzy she measures it at home."
             },
 
         ],
@@ -764,11 +758,11 @@ export const lesson = {
                     { prompt: "Correct the negative command: لَا بِتَسْتَنَّى.", arabeezy: "la btistanna.", answer: "مَا تِسْتَنَّاش." },
                 ],
                 reorderSentences: [
-                    { prompt: "Build: My stomach hurts since morning.", arabeezy: "baTni biyja3ni min eS-Subu7.", words: ["بَطْنِي"," بِيْجَعْنِي",  "مِن الصُّبْح."], answer: "بَطْنِي بِيْجَعْنِي مِن الصُّبْح." },
+                    { prompt: "Build: My stomach hurts since morning.", arabeezy: "baTni biyja3ni min eS-Subu7.", words: [" بِيْجَعْنِي","بَطْنِي",  "مِن الصُّبْح."], answer: "بَطْنِي بِيْجَعْنِي مِن الصُّبْح." },
                     { prompt: "Build: Take one pill twice a day.", arabeezy: "khod 7abbeh marratein fil-yom.", words: ["مَرَّتَيْن", "خُد حَبَّة", "فِي اليَوم."], answer: "خُد حَبَّة مَرَّتَيْن فِي اليَوم." },
                     { prompt: "Build: I have an allergy to medicine.", arabeezy: "3indi 7asasiyyeh min ed-dawa.", words: [" حَسَاسِيَّة", "عِنْدِي", "مِن الدَّوَا."], answer: "عِنْدِي حَسَاسِيَّة مِن الدَّوَا." },
-                    { prompt: "Review future: Tomorrow I will go to the clinic.", arabeezy: "bukra ra7 aroo7 3al-3iyadeh.", words: ["عَالْعِيَادَة.", "بُكْرَا", "رَاح أَرُوح",], answer: "بُكْرَا رَاح أَرُوح عَالْعِيَادَة." },
-                    { prompt: "Build: If you cannot breathe, call an ambulance immediately.", arabeezy: "iza ma bti2dar titnaffas, ittaSil bil-is3af 3aTool.", words: ["اِتَّصِل بِالإِسْعَاف", "إِذَا مَا بِتِقْدَر تِتْنَفَّس", "عَطُول."], answer: "إِذَا مَا بِتِقْدَر تِتْنَفَّس اِتَّصِل بِالإِسْعَاف عَطُول." },
+                    { prompt: "Review future: Tomorrow I will go to the clinic.", arabeezy: "bukra ra7 aroo7 3al-3iyadeh.", words: ["بُكْرَا","عَالْعِيَادَة.",  "رَاح أَرُوح",], answer: "بُكْرَا رَاح أَرُوح عَالْعِيَادَة." },
+                    { prompt: "Build: If you cannot breathe, call an ambulance immediately.", arabeezy: "iza ma bti2dar titnaffas, ittaSil bil-is3af 3aTool.", words: ["تِتْنَفَّس","إِذَا مَا بِتِقْدَر ", "اِتَّصِل بِالإِسْعَاف", "عَطُول."], answer: "إِذَا مَا بِتِقْدَر تِتْنَفَّس اِتَّصِل بِالإِسْعَاف عَطُول." },
                     { prompt: "Review: I want half a kilo of tomatoes.", arabeezy: "baddi noSS kilo bandora.", words: ["نُصّ كِيلُو", "بَدِّي", "بَنْدُورَة."], answer: "بَدِّي نُصّ كِيلُو بَنْدُورَة." },
                 ],
             },

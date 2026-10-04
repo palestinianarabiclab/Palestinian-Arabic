@@ -46,9 +46,9 @@ export const lesson = {
                 en: "breakfast",
                 enArabeezy: "fuToor",
                 hint: "Morning meal. Verb: بَفْطَر = I have breakfast.",
-                exampleAr: "الصُّبُح بَفْطَر مَع أَهْلِي.",
-                exampleArabeezy: "el-soboh bafTar ma3 ahli.",
-                exampleEn: "In the morning I have breakfast with my family.",
+                "exampleAr": "إِمِّي بِتْسَوِّي الفُطُور الصُّبُح.",
+                "exampleArabeezy": "immi bitsawwi el-fuToor el-soboh.",
+                "exampleEn": "My mother prepares breakfast in the morning."
             },
             {
                 id: "ghada",
@@ -56,9 +56,9 @@ export const lesson = {
                 en: "lunch",
                 enArabeezy: "ghada",
                 hint: "Main family meal in many homes. Verb: بَتْغَدَّى = I have lunch.",
-                exampleAr: "بَعْد الضُّهُر بَاكُل الغَدَا مَع أَهْلِي.",
-                exampleArabeezy: "ba3d el-duhur baakul el-ghada ma3 ahli.",
-                exampleEn: "In the afternoon I eat lunch with my family.",
+                exampleAr: "إِحْنَا بِنَاكُل الغَدَا بَعْد الضُّهُر.",
+                exampleArabeezy: "i7na binakul el-ghada ba3d el-duhur.",
+                exampleEn: "We eat lunch in the afternoon."
             },
             {
                 id: "3asha",
@@ -88,9 +88,9 @@ export const lesson = {
                 en: "cheese",
                 enArabeezy: "jibneh",
                 hint: "Common breakfast food. White cheese = جُبْنَة بَيْضَا.",
-                exampleAr: "بَفْطَر خُبِز وَجُبْنَة.",
-                exampleArabeezy: "bafTar khobez w jibneh.",
-                exampleEn: "I have bread and cheese for breakfast.",
+               "exampleAr": "أُخْتِي بِتِفْطَر خُبِز وَجُبْنَة بَيْضَا.",
+                "exampleArabeezy": "ukhti bitifTar khobez w jibneh beiDa.",
+                "exampleEn": "My sister eats bread and white cheese for breakfast."
             },
             {
                 id: "zeit_zaytoon",
@@ -136,17 +136,7 @@ export const lesson = {
                 exampleArabeezy: "ktyr nas bftrwa sndwysh flafl.",
                 exampleEn: "Many people have a falafel sandwich for breakfast.",
             },
-            {
-                id: "ruz",
-                ar: "رُزّ",
-                en: "rice",
-                enArabeezy: "rozz",
-                hint:
-                    "Typically eaten with meat or chicken.",
-                exampleAr: "بَاكُل رُزّ مَع خُضَار.",
-                exampleArabeezy: "bakl rz m3 khdar.",
-                exampleEn: "I eat rice with vegetables.",
-            },
+            
             {
                 id: "maqlubeh",
                 ar: "مَقْلُوبِة",
@@ -260,14 +250,14 @@ export const lesson = {
                 enArabeezy: "maTbukh",
                 hint:
                     "Opposite of raw. خْضَار مَطْبُوخَة = cooked vegetables.",
-                exampleAr: "بِفَضَّل خْضَار مَطْبُوخَة عَنْ المَقْلِيَّة.",
+                exampleAr: "بِفَضَّل خْضَار مَطْبُوخَ عَنْ المَقْلِيَّ.",
                 exampleArabeezy: "bfdl khdar mtbwkha 3n elmqlya.",
                 exampleEn: "I prefer cooked vegetables over fried ones.",
             },
 
             {
                 id: "m7ar",
-                ar: "حَارّ  ",
+                ar: "حَارّ /شطة ",
                 en: "spicy / hot (food)",
                 enArabeezy: "7arr",
                 hint: "Used for spicy food.",
@@ -277,11 +267,11 @@ export const lesson = {
             },
             {
                 id: "mal7",
-                ar: "مِالِح",
+                ar: "مالِح",
                 en: "salty",
                 enArabeezy: "melle7",
-                hint: "From مِالِح = salt.",
-                exampleAr: "هَادَا الطَّبَق مِالِح كْتِير.",
+                hint: "From ملح = salt.",
+                exampleAr: "هَادَا الطَّبَق مالِح كْتِير.",
                 exampleArabeezy: "hada eltbq ml7 ktyr.",
                 exampleEn: "This dish is too salty.",
             },
@@ -372,9 +362,9 @@ export const lesson = {
                 en: "tasty / delicious",
                 enArabeezy: "zaki / zakiyeh",
                 hint: "Male: زَاكِي. Female: زَاكِيَة. Plural: زَاكْيِين.",
-                exampleAr: "الجَاج زَاكِي كْتِير.",
-                exampleArabeezy: "el-jaj zaki kteer.",
-                exampleEn: "The chicken is very tasty.",
+                "exampleAr": "المَقْلُوبِة المَطْبُوحَة فِي البِيت كْتِير زَاكْيَة.",
+                "exampleArabeezy": "el-maqlubeh el-maTbookha fel-beet kteer zakiyeh.",
+                "exampleEn": "The home-cooked maqlubeh is very delicious."
             },
             {
                 id: "mish_zaki",
@@ -423,9 +413,9 @@ export const lesson = {
                 enArabeezy: "bifaDDel",
                 hint:
                     "More specific than بَحِبّ. ‘I prefer X over Y’: بِفَضَّل … عَنْ …. ",
-                exampleAr: "بِفَضَّل السَّمَك عَنْ اللَّحِم.",
-                exampleArabeezy: "bfdl elsmk 3n ell7m.",
-                exampleEn: "I prefer fish over meat.",
+                "exampleAr": "هِيَّ بِتْفَضَّل الجَاج عَنْ اللَّحْمَة.",
+                "exampleArabeezy": "hiyya bitfaDDel el-jaj 3an el-la7meh.",
+                "exampleEn": "She prefers chicken over meat."
             },
             {
                 id: "ba2mor",
@@ -474,9 +464,9 @@ export const lesson = {
                 ar: "صَحَّة وَعَافْيَة",
                 en: "enjoy / bon appetit",
                 enArabeezy: "sa77a w 3afyeh",
-                hint: "Said when serving food or when someone is eating. Reply: الله يْعَافِيك.",
-                exampleAr: "صَحَّة وَعَافْيَة. ـ الله يْعَافِيك.",
-                exampleArabeezy: "sa77a w 3afyeh. - allah y3afeek.",
+                hint: "Said when serving food or when someone is eating. Reply: عقلبك.",
+                exampleAr: "صَحَّة وَعَافْيَة. ـ عقلبك .",
+                exampleArabeezy: "sa77a w 3afyeh. — 3a2lbak.",
                 exampleEn: "Enjoy your meal. — Thank you.",
             },
         ],

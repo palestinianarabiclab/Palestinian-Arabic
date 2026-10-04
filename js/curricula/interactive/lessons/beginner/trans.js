@@ -45,30 +45,9 @@ export const lesson = {
                 en: "errand / trip",
                 enArabeezy: "mishwar",
                 hint: "Very common daily word. I have an errand = عِنْدِي مِشْوَار.",
-                exampleAr: "عِنْدِي مِشْوَار بَعْد الغدا.",
-                exampleArabeezy: "3indi mishwar ba3d el-ghada.",
-                exampleEn: "I have an errand after lunch.",
-            },
-            {
-                id: "tareeq",
-                ar: "طَرِيق",
-                en: "road / way",
-                enArabeezy: "Taree2",
-                hint: "Useful in directions: وِين الطَّرِيق؟ الطَّرِيق زَحْمَة.",
-                exampleAr: "وِين الطَّرِيق؟",
-                exampleArabeezy: "wein el-Taree2?",
-                exampleEn: "Where is the road / way?",
-            },
-            {
-                id: "shari3",
-                ar: "شَارِع",
-                en: "street / road",
-                enArabeezy: "shari3",
-                hint:
-                    "Plural: شَوَارِع. شَارِع رَئِيسِي = main street; شَارِع ضَيِّق = narrow street.",
-                exampleAr: "الشَّوَارِع الْيَوْم مَلْيَانَة سَيَّارَات.",
-                exampleArabeezy: "elshwar3 elywm mlyana syarat.",
-                exampleEn: "The streets today are full of cars.",
+                exampleAr: "عِنْدِي مِشْوَار بَعْد الضُّهُر، وَلَازِم أَلَاقِي مُوَاصَلات بِسُرْعَة عَشَان مَا أِتْأَخَّر.",
+                exampleArabeezy: "3indi mishwar ba3d el-Duhur, w lazim ala2i mwasalat b-sur3a 3ashan ma at2akhar.",
+                exampleEn: "I have an errand after noon, and I need to find transportation quickly so I don't get late.",
             },
             {
                 id: "sayyara",
@@ -81,6 +60,18 @@ export const lesson = {
                 exampleArabeezy: "akhwy bswq syara elshrka.",
                 exampleEn: "My brother drives the company car.",
             },
+            {
+                id: "shari3",
+                ar: "طَرِيق/ شَارِع",
+                en: "street / road",
+                enArabeezy: "shari3",
+                hint:
+                    "Plural: شَوَارِع. شَارِع رَئِيسِي = main street; شَارِع ضَيِّق = narrow street.",
+                exampleAr: "الشَّوَارِع الْيَوْم مَلْيَانَة سَيَّارَات.",
+                exampleArabeezy: "elshwar3 elywm mlyana syarat.",
+                exampleEn: "The streets today are full of cars.",
+            },
+            
             {
                 id: "taxi",
                 ar: " تاكسي",
