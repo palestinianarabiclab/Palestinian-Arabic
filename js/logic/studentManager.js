@@ -198,7 +198,8 @@ class StudentManager {
             vocabulary: {},
             practice: {},
             homework: {},
-            lastAccessed: null
+            lastAccessed: null,
+            lessonState: null // { lessonId, conversationIndex, lineIndex, wordIndex, updatedAt }
         };
     }
 

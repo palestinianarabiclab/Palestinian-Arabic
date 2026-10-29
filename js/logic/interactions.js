@@ -2175,13 +2175,19 @@ async function saveStudentsToCloud() {
     const ref = db.collection("teacherStudents");
 
     // Ù†ÙØ¶ي Ùƒل Ø·Ù„Ø§Ø¨ Ù‡Ø°Ø§ Ø§Ù„Ù…Ø¹لم Ø«م Ù†Ø±ÙØ¹ من Ø¬Ø¯ÙŠØ¯ (Ø¨Ø³ÙŠØ·Ø© Ù…Ø¨Ø¯Ø¦ÙŠÙ‹Ø§)
+    const email = (appState.currentUser.email || "").trim().toLowerCase();
     const snap = await ref.where("teacherId", "==", appState.currentUser.uid).get();
     snap.forEach((doc) => batch.delete(doc.ref));
+    if (email) {
+        const snapE = await ref.where("teacherEmail", "==", email).get();
+        snapE.forEach((doc) => batch.delete(doc.ref));
+    }
 
     appState.students.forEach((s) => {
         const docRef = ref.doc(s.id);
         batch.set(docRef, {
             teacherId: appState.currentUser.uid,
+            teacherEmail: email,
             name: s.name,
             level: s.level,
             goals: s.goals || [],
@@ -2206,7 +2212,9 @@ async function syncTeacherStudentsFromCloud() {
     try {
 
     const ref = db.collection("teacherStudents");
+    const email = (appState.currentUser.email || "").trim().toLowerCase();
     const snap = await ref.where("teacherId", "==", appState.currentUser.uid).get();
+    const snap2 = email ? await ref.where("teacherEmail", "==", email).get() : { forEach: () => {} };
 
     const loaded = [];
     snap.forEach((doc) => {
@@ -2223,8 +2231,29 @@ async function syncTeacherStudentsFromCloud() {
         });
     });
 
-    appState.students = loaded;
-    saveStudentsToLS({ skipCloud: true }); // Ù†Ø®Ø²ن Ù†Ø³Ø®Ø© Ù…Ø­Ù„ÙŠØ©
+    const seen = new Set(loaded.map(s => s.id));
+    snap2.forEach((doc) => {
+        if (seen.has(doc.id)) return;
+        const d = doc.data() || {};
+        loaded.push({
+            id: doc.id,
+            name: d.name,
+            level: d.level,
+            goals: d.goals || [],
+            progress: d.progress || {},
+            homeworkNotes: d.homeworkNotes || {},
+            lastSeen: d.lastSeen || null,
+            lastSeenByCurriculum: d.lastSeenByCurriculum || {},
+        });
+        seen.add(doc.id);
+    });
+
+    if (loaded.length > 0) {
+        appState.students = loaded;
+        saveStudentsToLS({ skipCloud: true });
+    } else {
+        appState.students = loadStudentsFromLS();
+    } // Ù†Ø®Ø²ن Ù†Ø³Ø®Ø© Ù…Ø­Ù„ÙŠØ©
     } catch (err) {
         console.warn("Could not sync teacher students from cloud, using local students.", err);
         appState.students = loadStudentsFromLS();
@@ -7869,4 +7898,9 @@ function toast(message) {
 try { Object.assign(window, { saveLessonToLS, toast, renderLesson, renderLevels }); } catch (e) { }
 
 
+
+
+// Backup helpers
+window.exportStudentsBackup = function(){ const blob = new Blob([JSON.stringify(appState.students||[],null,2)], {type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='students_backup.json'; a.click(); URL.revokeObjectURL(a.href); };
+window.importStudentsBackup = async function(jsonText){ try { const arr=JSON.parse(jsonText); if(Array.isArray(arr)){ appState.students=arr; saveStudentsToLS(); await saveStudentsToCloud(); alert('Imported '+arr.length+' students'); } } catch(e){ alert('Import failed: '+e.message); } };
 
